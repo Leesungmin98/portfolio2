@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: $title-16;
     line-height: 24px;
     letter-spacing: -2.5%;
     color: $color-1111;
@@ -33,15 +33,15 @@ h3 {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: $title-24;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: $title-20;
 }
 
 p {
-    font-size: 16px;
+    font-size: $title-16;
 }
 
 strong {
