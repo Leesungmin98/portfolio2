@@ -1,1 +1,75 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2.5%;
+  color: rgb(17, 17, 17);
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  display: block;
+}
+
+header,
+nav,
+main,
+article,
+section,
+aside,
+footer {
+  display: block;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard"), url("../font/Pretendard-Medium.otf") format("opentype"), url("../font/Pretendard-Regular.otf") format("opentype"), url("../font/Pretendard-SemiBold.otf") format("opentype");
+}
+body header nav {
+  width: 100%;
+  height: 40px;
+  border-bottom: solid 1px rgb(17, 17, 17);
+}
+body header nav .phone a {
+  font-size: 14px;
+}
+body header nav .phone a span {
+  font-weight: 800;
+}/*# sourceMappingURL=index.css.map */
