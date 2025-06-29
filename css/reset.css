@@ -1,1 +1,85 @@
-/*# sourceMappingURL=reset.css.map */
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #111111;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #111111;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  display: block;
+}
+
+header,
+nav,
+main,
+article,
+section,
+aside,
+footer {
+  display: block;
+}
+
+/* Pretendard 폰트 정의 (굵기별) */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  src: local("Pretendard"), url("../font/Pretendard-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  src: local("Pretendard"), url("../font/Pretendard-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  src: local("Pretendard"), url("../font/Pretendard-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  src: local("Pretendard"), url("../font/Pretendard-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  src: local("Pretendard"), url("../font/Pretendard-Bold.otf") format("opentype");
+}/*# sourceMappingURL=reset.css.map */
