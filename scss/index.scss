@@ -71,11 +71,14 @@ body {
                         list-style: none;
                         text-align: center;
                         li {
-                        margin: 20px 0;
+                            margin: 20px 0;
                             a {
                                 text-decoration: none;
                                 color: $color-1111;
                                 font-size: $title-20;
+                                  &:hover {
+                                    color: $color-7676;
+                                }
                             }
                         }
                     } // ul

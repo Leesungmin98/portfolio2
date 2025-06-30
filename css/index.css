@@ -156,6 +156,9 @@ body header nav .container .menu-overlay ul li a {
   color: rgb(17, 17, 17);
   font-size: 20px;
 }
+body header nav .container .menu-overlay ul li a:hover {
+  color: rgb(118, 118, 118);
+}
 body header nav .container .menu-overlay.active {
   opacity: 1;
   pointer-events: auto;
