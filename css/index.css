@@ -183,4 +183,16 @@ body main .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+body main .container .glitch-wrapper {
+  font-family: "Pretendard", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top: 100px;
+}
+body main .container #glitchText {
+  display: inline-block;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=index.css.map */
