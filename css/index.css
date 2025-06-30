@@ -91,7 +91,16 @@ body header nav {
   height: 40px;
   border-bottom: solid 1px rgb(17, 17, 17);
 }
-body header nav .menu-btn {
+body header nav .container {
+  width: 100%;
+  height: 100%;
+  max-width: 1840px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .container .menu-btn {
   width: 28px;
   height: 28px;
   position: relative;
@@ -101,26 +110,26 @@ body header nav .menu-btn {
   justify-content: center;
   z-index: 1100;
 }
-body header nav .menu-btn .bar {
+body header nav .container .menu-btn .bar {
   position: absolute;
   width: 19px;
   height: 1.5px;
   background-color: rgb(17, 17, 17);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
-body header nav .menu-btn .bar:nth-child(1) {
+body header nav .container .menu-btn .bar:nth-child(1) {
   transform: translateY(-4px);
 }
-body header nav .menu-btn .bar:nth-child(2) {
+body header nav .container .menu-btn .bar:nth-child(2) {
   transform: translateY(4px);
 }
-body header nav .menu-btn.active .bar:nth-child(1) {
+body header nav .container .menu-btn.active .bar:nth-child(1) {
   transform: rotate(45deg);
 }
-body header nav .menu-btn.active .bar:nth-child(2) {
+body header nav .container .menu-btn.active .bar:nth-child(2) {
   transform: rotate(-45deg);
 }
-body header nav .menu-overlay {
+body header nav .container .menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -135,25 +144,25 @@ body header nav .menu-overlay {
   transition: opacity 0.3s ease;
   z-index: 1000;
 }
-body header nav .menu-overlay ul {
+body header nav .container .menu-overlay ul {
   list-style: none;
   text-align: center;
 }
-body header nav .menu-overlay ul li {
+body header nav .container .menu-overlay ul li {
   margin: 16px 0;
 }
-body header nav .menu-overlay ul li a {
+body header nav .container .menu-overlay ul li a {
   text-decoration: none;
   color: rgb(17, 17, 17);
   font-size: 24px;
 }
-body header nav .menu-overlay.active {
+body header nav .container .menu-overlay.active {
   opacity: 1;
   pointer-events: auto;
 }
-body header nav .phone a {
+body header nav .container .phone a {
   font-size: 14px;
 }
-body header nav .phone a span {
+body header nav .container .phone a span {
   font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
