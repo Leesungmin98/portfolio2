@@ -219,12 +219,11 @@ body {
             .main-menu {
                 .main-box {
                     display: none;
-
                     &.active {
                         display: block;
                     }
 
-                                        .mbox1 {
+                    .mbox1 {
                         margin-bottom: 70px;
                         .mbox-link {
                             text-decoration: none;

@@ -90,66 +90,34 @@ updateClock(); // 시계
     }); // 글자 랜덤 변환
 
     //////////////////////////////////////////////////////////////
-    
-    const buttons = document.querySelectorAll('.left-button > div');
 
-    buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-        buttons.forEach(b => b.classList.remove('active')); // 기존 active 제거
-        btn.classList.add('active'); // 클릭한 div에 active 추가
-        });
-    }); // 왼쪽 버튼
-
-///////////////////////////////////////////////////////////////////////////////
-
-document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".left-button > div");
-  const mainBoxes = document.querySelectorAll(".main-menu .main-box");
-
-  buttons.forEach((btn, index) => {
-    btn.addEventListener("click", () => {
-      // 버튼 active 상태 초기화
-      buttons.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-
-      // main-box 표시 제어
-      mainBoxes.forEach(box => box.classList.remove("active"));
-      if (mainBoxes[index]) {
-        mainBoxes[index].classList.add("active");
-      }
-    });
-  });
-});
 
 //////////////////////////////////////////////////////////////////////////
 
-// 레프트 버튼 클릭 이벤트
-const leftButtons = document.querySelectorAll('.left-button div');
-const mainBoxes = document.querySelectorAll('.main-box');
+document.addEventListener("DOMContentLoaded", () => {
+  const leftButtons = document.querySelectorAll('.left-button > div');
+  const mainBoxes = document.querySelectorAll('.main-box');
 
-leftButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    // 1. 모든 버튼에서 active 제거
-    leftButtons.forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
+  leftButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      // 모든 버튼에서 active 제거
+      leftButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
 
-    // 2. 모든 main-box 숨기고 선택된 것만 보이기
-    mainBoxes.forEach(box => {
-      box.classList.remove('active');
-      box.style.opacity = '0';
-      box.style.pointerEvents = 'none';
-    });
+      // 모든 main-box에서 active 제거
+      mainBoxes.forEach(box => box.classList.remove('active'));
 
-    const targetBox = mainBoxes[index];
-    targetBox.classList.add('active');
-    targetBox.style.opacity = '1';
-    targetBox.style.pointerEvents = 'auto';
+      // 해당 main-box만 active 추가
+      if (mainBoxes[index]) {
+        mainBoxes[index].classList.add('active');
+      }
 
-    // 3. 모든 비디오 정지시키기
-    const videos = document.querySelectorAll('video');
-    videos.forEach(video => {
-      video.pause();
-      video.currentTime = 0;
+      // 모든 비디오 멈춤 + 초기화
+      const videos = document.querySelectorAll('video');
+      videos.forEach(video => {
+        video.pause();
+        video.currentTime = 0;
+      });
     });
   });
 });
