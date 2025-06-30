@@ -229,20 +229,33 @@ body main .container .left-menu .left-box .left-text p {
 body main .container .left-menu .left-box .left-button {
   width: 190px;
   text-align: left;
-  background-color: aqua;
   margin-top: 40px;
 }
-body main .container .left-menu .left-box .left-button .left-button-first {
+body main .container .left-menu .left-box .left-button div {
   height: 56px;
-  line-height: 56px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+body main .container .left-menu .left-box .left-button div p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+body main .container .left-menu .left-box .left-button div.active p {
+  color: rgb(17, 17, 17);
+}
+body main .container .left-menu .left-box .left-button .left-button-first {
   border-top: 1px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .left-button .left-button-middle {
-  height: 56px;
-  line-height: 56px;
+  border-top: 1px solid rgb(17, 17, 17);
+  border-bottom: 1px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .left-button .left-button-last {
-  height: 56px;
-  line-height: 56px;
   border-bottom: 1px solid rgb(17, 17, 17);
 }/*# sourceMappingURL=index.css.map */

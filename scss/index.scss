@@ -159,30 +159,40 @@ body {
                     .left-button {
                         width: 190px;
                         text-align: left;
-                        background-color: aqua;
                         margin-top: $margin-40;
-                        .left-button-first {
+                      
+                       
+                        div {
                             height: 56px;
-                            line-height: 56px;
-                            border-top: 1px solid $color-1111;
-                            a {
+                            display: flex;
+                            align-items: center;
+                            
+                            cursor: pointer;
 
+                            p {
+                                font-size: $title-14;
+                                font-weight: 600;
+                                line-height: 20px;
+                                letter-spacing: 0.25px;
+                                color: $color-9999;
+                                text-decoration: none;
+                                transition: color 0.3s;
                             }
+
+                            &.active p {
+                                color: $color-1111;
+                            }
+                        } // div
+                        
+                        .left-button-first {
+                            border-top: 1px solid $color-1111;
                         }
-                        .left-button-middle {
-                            height: 56px;
-                            line-height: 56px;
-                             a {
-                                
-                            }
+                        .left-button-middle {  
+                            border-top: 1px solid $color-1111;
+                            border-bottom: 1px solid $color-1111;
                         }
                         .left-button-last {
-                            height: 56px;
-                            line-height: 56px;
                             border-bottom: 1px solid $color-1111;
-                             a {
-                                
-                            }
                         }
                     } // .left-button
                 } // .left-box

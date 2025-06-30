@@ -91,3 +91,13 @@ updateClock(); // 시계
 
     //////////////////////////////////////////////////////////////
     
+    const buttons = document.querySelectorAll('.left-button > div');
+
+    buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active')); // 기존 active 제거
+        btn.classList.add('active'); // 클릭한 div에 active 추가
+        });
+    }); // 왼쪽 버튼
+
+///////////////////////////////////////////////////////////////////////////////
