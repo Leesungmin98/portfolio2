@@ -197,6 +197,8 @@ body main .container {
   max-width: 1840px;
   margin: 0 auto;
   padding-top: 40px;
+  display: flex;
+  align-items: center;
 }
 body main .container .left-menu {
   width: 269px;
@@ -269,4 +271,8 @@ body main .container .left-menu .left-box .year p {
   font-size: 14px;
   line-height: 20px;
   color: rgb(153, 153, 153);
+}
+body main .container .main-menu {
+  width: 1175px;
+  height: 100vh;
 }/*# sourceMappingURL=index.css.map */
