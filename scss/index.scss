@@ -219,11 +219,30 @@ body {
             .main-menu {
                 width: 1175px;
                 height: 100vh;
-                background-color: aqua;
+                // background-color: aqua;
                 .main-box {
-                    
-                }
+                    .mbox {
+                        width: 1095px;
+                        height: 612px;
+                        background-color: rgb(28, 134, 134);
+                    }
+                } // .main-box
             } // .main-menu
+
+            .right-menu {
+                height: 100vh;
+                .right-box {
+                    position: fixed;
+                    width: 396px;
+                    height: 100vh;
+                    overflow-y: auto;
+                    padding-right: 12px;
+                    .works {
+                        height: 2000px;
+                        background-color: aquamarine;
+                    } // .works
+                } // .right-box
+            } // .right-menu
         } // .container
     } // main //
 

@@ -275,5 +275,23 @@ body main .container .left-menu .left-box .year p {
 body main .container .main-menu {
   width: 1175px;
   height: 100vh;
-  background-color: aqua;
+}
+body main .container .main-menu .main-box .mbox {
+  width: 1095px;
+  height: 612px;
+  background-color: rgb(28, 134, 134);
+}
+body main .container .right-menu {
+  height: 100vh;
+}
+body main .container .right-menu .right-box {
+  position: fixed;
+  width: 396px;
+  height: 100vh;
+  overflow-y: auto;
+  padding-right: 12px;
+}
+body main .container .right-menu .right-box .works {
+  height: 2000px;
+  background-color: aquamarine;
 }/*# sourceMappingURL=index.css.map */
