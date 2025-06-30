@@ -165,4 +165,13 @@ body header nav .container .phone a {
 }
 body header nav .container .phone a span {
   font-weight: 700;
+}
+body main .container {
+  width: 100%;
+  height: 100%;
+  max-width: 1840px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
