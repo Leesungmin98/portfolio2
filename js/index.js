@@ -120,3 +120,36 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+//////////////////////////////////////////////////////////////////////////
+
+// 레프트 버튼 클릭 이벤트
+const leftButtons = document.querySelectorAll('.left-button div');
+const mainBoxes = document.querySelectorAll('.main-box');
+
+leftButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    // 1. 모든 버튼에서 active 제거
+    leftButtons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    // 2. 모든 main-box 숨기고 선택된 것만 보이기
+    mainBoxes.forEach(box => {
+      box.classList.remove('active');
+      box.style.opacity = '0';
+      box.style.pointerEvents = 'none';
+    });
+
+    const targetBox = mainBoxes[index];
+    targetBox.classList.add('active');
+    targetBox.style.opacity = '1';
+    targetBox.style.pointerEvents = 'auto';
+
+    // 3. 모든 비디오 정지시키기
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+});
