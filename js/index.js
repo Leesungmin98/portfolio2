@@ -31,7 +31,7 @@ updateClock(); // 시계
 
   document.addEventListener('DOMContentLoaded', () => {
       const glitchText = document.getElementById('glitchText');
-      const texts = ['Hello', '안녕하세요'];
+      const texts = ['HELLO', '안녕하세요'];
       const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789가나다라마바사아자차카타파하!@#$%^&*()-_+=~';
       let currentIndex = 0;
 

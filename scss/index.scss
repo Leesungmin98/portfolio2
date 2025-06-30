@@ -4,10 +4,14 @@
 body { 
     font-family: 'Pretendard', sans-serif;
     header {
+        width: 100%;
+        height: 40px;
         nav {
+            position: fixed;
             width: 100%;
             height: 40px;
             border-bottom: solid 1px $color-1111;
+            background-color: $color-white;
             .container {
                 width: 100%;
                 height: 100%;
@@ -75,6 +79,7 @@ body {
                                 text-decoration: none;
                                 color: $color-1111;
                                 font-size: $title-20;
+                                line-height: 28px;
                                 &:hover {
                                     color: $color-7676;
                                 }
@@ -91,6 +96,7 @@ body {
                 .phone {
                     a {
                         font-size: $title-14;
+                        line-height: 20px;
                         span {
                             font-weight: 700;
                         }
@@ -102,6 +108,7 @@ body {
 
                 #clock {
                     font-size: $title-14;
+                    line-height: 20px;
                     color: $color-1111;
                 } // #clock
             } // .container
@@ -110,30 +117,47 @@ body {
 
     main {
         width: 100%;
-        height: 100vh;
-        // background-color: antiquewhite;
+        height: 100%;
         .container {
             width: 100%;
             height: 100%;
             max-width: 1840px;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            margin: 0 auto;
+            padding-top: 40px;
             .left-menu {
-                .glitch-wrapper {
-                    font-family: 'Pretendard', sans-serif;
-                    font-size: $title-24;
-                    font-weight: bold;
-                    color: #000;
-                    text-align: center;
-                    margin-top: 100px;
-                } // .glitch-wrapper
-    
-                #glitchText {
-                    display: inline-block;
-                    letter-spacing: 1px;
-                } // #glitchText
+                width: 269px;
+                height: 100vh;
+                background-color: antiquewhite;
+                .left-box{
+                    position: fixed;
+                    width: 269px;
+                    height: 100%;
+                    .glitch-wrapper {
+                        width: 190px;
+                        font-family: 'Pretendard', sans-serif;
+                        font-size: 40px;
+                        font-weight: 600;
+                        line-height: 52px;
+                        color: $color-1111;
+                        // background-color: aqua;
+                    } // .glitch-wrapper
+        
+                    #glitchText {
+                        display: inline-block;
+                        letter-spacing: 1px;
+                    } // #glitchText
+
+                    .left-text {
+                        width: 190px;
+                        margin-top: 8px;
+                        p {
+                            font-size: $title-14;
+                            line-height: 20px;
+                            letter-spacing: 0.25px;
+                            color: $color-7676;
+                        }
+                    } // .left-text
+                } // .left-box
             } // .left-menu
         } // .container
     } // main //

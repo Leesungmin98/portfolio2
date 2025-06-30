@@ -85,10 +85,16 @@ footer {
 body {
   font-family: "Pretendard", sans-serif;
 }
+body header {
+  width: 100%;
+  height: 40px;
+}
 body header nav {
+  position: fixed;
   width: 100%;
   height: 40px;
   border-bottom: solid 1px rgb(17, 17, 17);
+  background-color: rgb(255, 255, 255);
 }
 body header nav .container {
   width: 100%;
@@ -154,6 +160,7 @@ body header nav .container .menu-overlay ul li a {
   text-decoration: none;
   color: rgb(17, 17, 17);
   font-size: 20px;
+  line-height: 28px;
 }
 body header nav .container .menu-overlay ul li a:hover {
   color: rgb(118, 118, 118);
@@ -164,6 +171,7 @@ body header nav .container .menu-overlay.active {
 }
 body header nav .container .phone a {
   font-size: 14px;
+  line-height: 20px;
 }
 body header nav .container .phone a span {
   font-weight: 700;
@@ -173,30 +181,49 @@ body header nav .container .phone a:hover {
 }
 body header nav .container #clock {
   font-size: 14px;
+  line-height: 20px;
   color: rgb(17, 17, 17);
 }
 body main {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 body main .container {
   width: 100%;
   height: 100%;
   max-width: 1840px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
 }
-body main .container .left-menu .glitch-wrapper {
+body main .container .left-menu {
+  width: 269px;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+body main .container .left-menu .left-box {
+  position: fixed;
+  width: 269px;
+  height: 100%;
+}
+body main .container .left-menu .left-box .glitch-wrapper {
+  width: 190px;
   font-family: "Pretendard", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  color: rgb(17, 17, 17);
 }
-body main .container .left-menu #glitchText {
+body main .container .left-menu .left-box #glitchText {
   display: inline-block;
   letter-spacing: 1px;
+}
+body main .container .left-menu .left-box .left-text {
+  width: 190px;
+  margin-top: 8px;
+}
+body main .container .left-menu .left-box .left-text p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgb(118, 118, 118);
 }/*# sourceMappingURL=index.css.map */
