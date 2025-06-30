@@ -18,7 +18,7 @@ function updateClock() {
   hours = hours % 12;
   hours = hours === 0 ? 12 : hours; // 0시는 12로 표시
 
-  const currentTime = `KOREA | ${hours}:${minutes} ${ampm}`;
+  const currentTime = `Korea | ${hours}:${minutes} ${ampm}`;
   document.getElementById('clock').textContent = currentTime;
 }
 
