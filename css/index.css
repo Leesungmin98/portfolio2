@@ -272,14 +272,49 @@ body main .container .left-menu .left-box .year p {
   line-height: 20px;
   color: rgb(153, 153, 153);
 }
-body main .container .main-menu {
+body main .container .main-menu .main-box {
   width: 1175px;
   height: 100vh;
 }
-body main .container .main-menu .main-box .mbox {
+body main .container .main-menu .main-box .mbox-link {
+  text-decoration: none;
+}
+body main .container .main-menu .main-box .mbox-link .mbox {
+  position: relative;
   width: 1095px;
   height: 612px;
-  background-color: rgb(28, 134, 134);
+  background-color: #cfcfcf;
+  overflow: hidden;
+  cursor: pointer;
+}
+body main .container .main-menu .main-box .mbox-link .mbox .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+body main .container .main-menu .main-box .mbox-link .mbox .overlay .overlay-number {
+  position: absolute;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 20px;
+  text-align: center;
+  border-radius: 100%;
+}
+body main .container .main-menu .main-box .mbox-link .mbox .overlay .overlay-number p {
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: bold;
+}
+body main .container .main-menu .main-box .mbox-link .mbox:hover .overlay {
+  opacity: 1;
 }
 body main .container .right-menu {
   height: 100vh;
