@@ -200,6 +200,15 @@ body {
                             border-bottom: 1px solid $color-1111;
                         }
                     } // .left-button
+
+                    .year {
+                        padding-top: 500px;
+                        p {
+                            font-size: $title-14;
+                            line-height: 20px;
+                            color: $color-9999;
+                        }
+                    } // .year
                 } // .left-box
             } // .left-menu
         } // .container
