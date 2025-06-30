@@ -109,6 +109,9 @@ body {
     } // header //
 
     main {
+        width: 100%;
+        height: 100vh;
+        // background-color: antiquewhite;
         .container {
             width: 100%;
             height: 100%;
@@ -117,19 +120,21 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .glitch-wrapper {
-                font-family: 'Pretendard', sans-serif;
-                font-size: 32px;
-                font-weight: bold;
-                color: #000;
-                text-align: center;
-                margin-top: 100px;
-            } // .glitch-wrapper
-
-            #glitchText {
-                display: inline-block;
-                letter-spacing: 1px;
-            } // #glitchText
+            .left-menu {
+                .glitch-wrapper {
+                    font-family: 'Pretendard', sans-serif;
+                    font-size: $title-24;
+                    font-weight: bold;
+                    color: #000;
+                    text-align: center;
+                    margin-top: 100px;
+                } // .glitch-wrapper
+    
+                #glitchText {
+                    display: inline-block;
+                    letter-spacing: 1px;
+                } // #glitchText
+            } // .left-menu
         } // .container
     } // main //
 

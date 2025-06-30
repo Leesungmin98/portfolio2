@@ -31,11 +31,11 @@ updateClock(); // 시계
 
   document.addEventListener('DOMContentLoaded', () => {
       const glitchText = document.getElementById('glitchText');
-      const texts = ['Hello!', '안녕하세요!'];
+      const texts = ['Hello', '안녕하세요'];
       const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789가나다라마바사아자차카타파하!@#$%^&*()-_+=~';
       let currentIndex = 0;
 
-      function glitchChar(toChar, duration = 500, interval = 30) {
+      function glitchChar(toChar, duration = 300, interval = 30) {
         return new Promise(resolve => {
           let elapsed = 0;
           const glitchInterval = setInterval(() => {
@@ -72,7 +72,7 @@ updateClock(); // 시계
           });
         }
 
-        if (callback) setTimeout(callback, 1000); // 다 끝난 후 다음 텍스트로 넘어가기
+        if (callback) setTimeout(callback, 2000); // 다 끝난 후 다음 텍스트로 넘어가기
       }
 
       function loopGlitch() {
@@ -86,7 +86,7 @@ updateClock(); // 시계
       }
 
       // 시작
-      setTimeout(loopGlitch, 1000);
+      setTimeout(loopGlitch, 1100);
     }); // 글자 랜덤 변환
 
     //////////////////////////////////////////////////////////////

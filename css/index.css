@@ -175,6 +175,10 @@ body header nav .container #clock {
   font-size: 14px;
   color: rgb(17, 17, 17);
 }
+body main {
+  width: 100%;
+  height: 100vh;
+}
 body main .container {
   width: 100%;
   height: 100%;
@@ -184,15 +188,15 @@ body main .container {
   justify-content: space-between;
   align-items: center;
 }
-body main .container .glitch-wrapper {
+body main .container .left-menu .glitch-wrapper {
   font-family: "Pretendard", sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
   color: #000;
   text-align: center;
   margin-top: 100px;
 }
-body main .container #glitchText {
+body main .container .left-menu #glitchText {
   display: inline-block;
   letter-spacing: 1px;
 }/*# sourceMappingURL=index.css.map */
