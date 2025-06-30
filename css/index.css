@@ -273,13 +273,18 @@ body main .container .left-menu .left-box .year p {
   color: rgb(153, 153, 153);
 }
 body main .container .main-menu .main-box {
-  width: 1175px;
-  height: 100vh;
+  display: none;
 }
-body main .container .main-menu .main-box .mbox-link {
+body main .container .main-menu .main-box.active {
+  display: block;
+}
+body main .container .main-menu .main-box .mbox1 {
+  margin-bottom: 70px;
+}
+body main .container .main-menu .main-box .mbox1 .mbox-link {
   text-decoration: none;
 }
-body main .container .main-menu .main-box .mbox-link .mbox {
+body main .container .main-menu .main-box .mbox1 .mbox-link .mbox {
   position: relative;
   width: 1095px;
   height: 612px;
@@ -287,7 +292,7 @@ body main .container .main-menu .main-box .mbox-link .mbox {
   overflow: hidden;
   cursor: pointer;
 }
-body main .container .main-menu .main-box .mbox-link .mbox .overlay {
+body main .container .main-menu .main-box .mbox1 .mbox-link .mbox .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -298,23 +303,65 @@ body main .container .main-menu .main-box .mbox-link .mbox .overlay {
   transition: opacity 0.3s ease;
   z-index: 1;
 }
-body main .container .main-menu .main-box .mbox-link .mbox .overlay .overlay-number {
+body main .container .main-menu .main-box .mbox1 .mbox-link .mbox .overlay .overlay-number {
   position: absolute;
   z-index: 2;
   width: 24px;
   height: 24px;
   background-color: rgba(255, 255, 255, 0.6);
-  margin: 20px;
+  margin: 16px;
   text-align: center;
   border-radius: 100%;
 }
-body main .container .main-menu .main-box .mbox-link .mbox .overlay .overlay-number p {
+body main .container .main-menu .main-box .mbox1 .mbox-link .mbox .overlay .overlay-number p {
   color: rgb(17, 17, 17);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
-body main .container .main-menu .main-box .mbox-link .mbox:hover .overlay {
+body main .container .main-menu .main-box .mbox1 .mbox-link .mbox:hover .overlay {
   opacity: 1;
+}
+body main .container .main-menu .main-box .mbox1 .mbox1-text-box {
+  display: flex;
+  align-items: end;
+  margin-top: 12px;
+}
+body main .container .main-menu .main-box .mbox1 .mbox1-text-box a {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+  margin-right: 10px;
+}
+body main .container .main-menu .main-box .mbox1 .mbox1-text-box p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(118, 118, 118);
+}
+body main .container .main-menu .main-box .mbox1 .mbox1-text {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: rgb(118, 118, 118);
+}
+body main .container .main-menu .main-box {
+  width: 1175px;
+  height: 100vh;
+}
+body main .container .main-menu .main-box3 .mbox {
+  width: 1095px;
+  height: 612px;
+}
+body main .container .main-menu .main-box3 .mbox video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body main .container .right-menu {
   height: 100vh;

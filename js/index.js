@@ -101,3 +101,22 @@ updateClock(); // 시계
     }); // 왼쪽 버튼
 
 ///////////////////////////////////////////////////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".left-button > div");
+  const mainBoxes = document.querySelectorAll(".main-menu .main-box");
+
+  buttons.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+      // 버튼 active 상태 초기화
+      buttons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      // main-box 표시 제어
+      mainBoxes.forEach(box => box.classList.remove("active"));
+      if (mainBoxes[index]) {
+        mainBoxes[index].classList.add("active");
+      }
+    });
+  });
+});
