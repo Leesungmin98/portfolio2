@@ -95,6 +95,7 @@ body header nav {
   height: 40px;
   border-bottom: solid 1px rgb(17, 17, 17);
   background-color: rgb(255, 255, 255);
+  z-index: 10000;
 }
 body header nav .container {
   width: 100%;
@@ -113,7 +114,7 @@ body header nav .container .menu-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1100;
+  z-index: 9999;
 }
 body header nav .container .menu-btn .bar {
   position: absolute;
@@ -134,41 +135,6 @@ body header nav .container .menu-btn.active .bar:nth-child(1) {
 body header nav .container .menu-btn.active .bar:nth-child(2) {
   transform: rotate(-45deg);
 }
-body header nav .container .menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  z-index: 1000;
-}
-body header nav .container .menu-overlay ul {
-  list-style: none;
-  text-align: left;
-}
-body header nav .container .menu-overlay ul li {
-  margin: 16px 0;
-}
-body header nav .container .menu-overlay ul li a {
-  text-decoration: none;
-  color: rgb(17, 17, 17);
-  font-size: 20px;
-  line-height: 28px;
-}
-body header nav .container .menu-overlay ul li a:hover {
-  color: rgb(118, 118, 118);
-}
-body header nav .container .menu-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
-}
 body header nav .container .phone a {
   font-size: 14px;
   line-height: 20px;
@@ -183,6 +149,43 @@ body header nav .container #clock {
   font-size: 14px;
   line-height: 20px;
   color: rgb(17, 17, 17);
+}
+body .menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(17, 17, 17);
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+body .menu-overlay ul {
+  padding-bottom: 660px;
+  padding-left: 40px;
+  list-style: none;
+  text-align: left;
+}
+body .menu-overlay ul li {
+  margin: 16px 0;
+}
+body .menu-overlay ul li a {
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  line-height: 24px;
+}
+body .menu-overlay ul li a:hover {
+  color: rgb(118, 118, 118);
+}
+body .menu-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 body main {
   width: 100%;
