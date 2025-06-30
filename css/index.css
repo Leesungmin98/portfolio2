@@ -198,7 +198,6 @@ body main .container {
 body main .container .left-menu {
   width: 269px;
   height: 100vh;
-  background-color: antiquewhite;
 }
 body main .container .left-menu .left-box {
   position: fixed;
@@ -219,11 +218,31 @@ body main .container .left-menu .left-box #glitchText {
 }
 body main .container .left-menu .left-box .left-text {
   width: 190px;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 body main .container .left-menu .left-box .left-text p {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.25px;
   color: rgb(118, 118, 118);
+}
+body main .container .left-menu .left-box .left-button {
+  width: 190px;
+  text-align: left;
+  background-color: aqua;
+  margin-top: 40px;
+}
+body main .container .left-menu .left-box .left-button .left-button-first {
+  height: 56px;
+  line-height: 56px;
+  border-top: 1px solid rgb(17, 17, 17);
+}
+body main .container .left-menu .left-box .left-button .left-button-middle {
+  height: 56px;
+  line-height: 56px;
+}
+body main .container .left-menu .left-box .left-button .left-button-last {
+  height: 56px;
+  line-height: 56px;
+  border-bottom: 1px solid rgb(17, 17, 17);
 }/*# sourceMappingURL=index.css.map */

@@ -127,7 +127,6 @@ body {
             .left-menu {
                 width: 269px;
                 height: 100vh;
-                background-color: antiquewhite;
                 .left-box{
                     position: fixed;
                     width: 269px;
@@ -149,7 +148,7 @@ body {
 
                     .left-text {
                         width: 190px;
-                        margin-top: 8px;
+                        margin-top: 12px;
                         p {
                             font-size: $title-14;
                             line-height: 20px;
@@ -157,6 +156,35 @@ body {
                             color: $color-7676;
                         }
                     } // .left-text
+                    .left-button {
+                        width: 190px;
+                        text-align: left;
+                        background-color: aqua;
+                        margin-top: $margin-40;
+                        .left-button-first {
+                            height: 56px;
+                            line-height: 56px;
+                            border-top: 1px solid $color-1111;
+                            a {
+
+                            }
+                        }
+                        .left-button-middle {
+                            height: 56px;
+                            line-height: 56px;
+                             a {
+                                
+                            }
+                        }
+                        .left-button-last {
+                            height: 56px;
+                            line-height: 56px;
+                            border-bottom: 1px solid $color-1111;
+                             a {
+                                
+                            }
+                        }
+                    } // .left-button
                 } // .left-box
             } // .left-menu
         } // .container
