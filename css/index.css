@@ -146,10 +146,10 @@ body header nav .container .menu-overlay {
 }
 body header nav .container .menu-overlay ul {
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 body header nav .container .menu-overlay ul li {
-  margin: 20px 0;
+  margin: 16px 0;
 }
 body header nav .container .menu-overlay ul li a {
   text-decoration: none;
@@ -171,6 +171,10 @@ body header nav .container .phone a span {
 }
 body header nav .container .phone a:hover {
   color: rgb(118, 118, 118);
+}
+body header nav .container #clock {
+  font-size: 14px;
+  color: rgb(17, 17, 17);
 }
 body main .container {
   width: 100%;
