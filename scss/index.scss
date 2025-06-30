@@ -8,6 +8,79 @@ body {
             width: 100%;
             height: 40px;
             border-bottom: solid 1px $color-1111;
+            .menu-btn {
+                width: 28px;
+                height: 28px;
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1100;
+
+                .bar {
+                    position: absolute;
+                    width: 19px;
+                    height: 1.5px;
+                    background-color: $color-1111;
+                    transition: transform 0.3s ease, opacity 0.3s ease;
+
+                    &:nth-child(1) {
+                    transform: translateY(-4px);
+                    } // top bar
+
+                    &:nth-child(2) {
+                    transform: translateY(4px);
+                    } // bottom bar
+                } // .bar
+
+                &.active {
+                    .bar {
+                        &:nth-child(1) {
+                            transform: rotate(45deg);
+                        }
+
+                        &:nth-child(2) {
+                            transform: rotate(-45deg);
+                        }
+                    }
+                } // .active
+            } // .menu-btn
+
+            .menu-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.3s ease;
+                z-index: 1000;
+
+                ul {
+                    list-style: none;
+                    text-align: center;
+                    li {
+                    margin: 16px 0;
+                        a {
+                            text-decoration: none;
+                            color: #000;
+                            font-size: 24px;
+                        }
+                    }
+                } // ul
+            } // .menu-overlay
+
+            .menu-overlay.active {
+                opacity: 1;
+                pointer-events: auto;
+            } // .menu-overlay.active
+
             .phone {
                 a {
                     font-size: $title-14;
