@@ -28,7 +28,7 @@ body {
                     .bar {
                         position: absolute;
                         width: 19px;
-                        height: 1.5px;
+                        height: 2px;
                         background-color: $color-1111;
                         transition: transform 0.3s ease, opacity 0.3s ease;
 
@@ -58,7 +58,7 @@ body {
                     left: 0;
                     width: 100vw;
                     height: 100vh;
-                    background-color: rgba(255, 255, 255, 0.9);
+                    background-color: rgba(255, 255, 255, 0.8);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -71,11 +71,11 @@ body {
                         list-style: none;
                         text-align: center;
                         li {
-                        margin: 16px 0;
+                        margin: 20px 0;
                             a {
                                 text-decoration: none;
                                 color: $color-1111;
-                                font-size: 24px;
+                                font-size: $title-20;
                             }
                         }
                     } // ul

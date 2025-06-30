@@ -113,7 +113,7 @@ body header nav .container .menu-btn {
 body header nav .container .menu-btn .bar {
   position: absolute;
   width: 19px;
-  height: 1.5px;
+  height: 2px;
   background-color: rgb(17, 17, 17);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -135,7 +135,7 @@ body header nav .container .menu-overlay {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,12 +149,12 @@ body header nav .container .menu-overlay ul {
   text-align: center;
 }
 body header nav .container .menu-overlay ul li {
-  margin: 16px 0;
+  margin: 20px 0;
 }
 body header nav .container .menu-overlay ul li a {
   text-decoration: none;
   color: rgb(17, 17, 17);
-  font-size: 24px;
+  font-size: 20px;
 }
 body header nav .container .menu-overlay.active {
   opacity: 1;
