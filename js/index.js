@@ -91,43 +91,102 @@ updateClock(); // 시계
 
     //////////////////////////////////////////////////////////////
 
-
-//////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
 
 // document.addEventListener("DOMContentLoaded", () => {
-//   const leftButtons = document.querySelectorAll('.left-button > div');
-//   const mainBoxes = document.querySelectorAll('.main-box');
+//   const leftButtons = document.querySelectorAll(".left-button > div");
+//   const mainBoxes = document.querySelectorAll(".main-box");
+//   let currentIndex = 0;
 
 //   leftButtons.forEach((button, index) => {
-//     button.addEventListener('click', () => {
-//       // 모든 버튼에서 active 제거
-//       leftButtons.forEach(btn => btn.classList.remove('active'));
-//       button.classList.add('active');
+//     button.addEventListener("click", () => {
+//       if (index === currentIndex) return;
 
-//       // 모든 main-box에서 active 제거 (자연스럽게 페이드아웃)
-//       mainBoxes.forEach((box, i) => {
-//         if (i === index) {
-//           box.classList.add('active'); // 페이드인
-//         } else {
-//           box.classList.remove('active'); // 페이드아웃
-//         }
+//       // 버튼 상태 전환
+//       leftButtons.forEach(btn => btn.classList.remove("active"));
+//       button.classList.add("active");
+
+//       const currentBox = mainBoxes[currentIndex];
+//       const nextBox = mainBoxes[index];
+
+//       // 현재 박스 페이드 아웃
+//       fadeOut(currentBox, () => {
+//         // 다음 박스 페이드 인
+//         fadeIn(nextBox);
+//         currentIndex = index;
 //       });
 
-//       // 모든 비디오 멈춤 + 초기화
-//       const videos = document.querySelectorAll('video');
-//       videos.forEach(video => {
+//       // 비디오 모두 정지 및 리셋
+//       document.querySelectorAll("video").forEach(video => {
 //         video.pause();
 //         video.currentTime = 0;
 //       });
 //     });
 //   });
+
+//   // 처음은 첫 박스만 보이게
+//   mainBoxes.forEach((box, i) => {
+//     if (i === 0) {
+//       box.style.display = "block";
+//       box.style.opacity = 1;
+//     } else {
+//       box.style.display = "none";
+//       box.style.opacity = 0;
+//     }
+//   });
 // });
 
-/////////////////////////////////////////////////////
+// function fadeOut(element, callback) {
+//   let opacity = 1;
+//   const duration = 500;
+//   const interval = 20;
+//   const gap = interval / duration;
+
+//   function animate() {
+//     opacity -= gap;
+//     if (opacity <= 0) {
+//       opacity = 0;
+//       element.style.opacity = 0;
+//       element.style.display = "none";
+//       if (callback) callback();
+//     } else {
+//       element.style.opacity = opacity;
+//       requestAnimationFrame(animate);
+//     }
+//   }
+
+//   requestAnimationFrame(animate);
+// }
+
+// function fadeIn(element) {
+//   let opacity = 0;
+//   const duration = 500;
+//   const interval = 20;
+//   const gap = interval / duration;
+
+//   element.style.display = "block";
+//   element.style.opacity = 0;
+
+//   function animate() {
+//     opacity += gap;
+//     if (opacity >= 1) {
+//       opacity = 1;
+//       element.style.opacity = 1;
+//     } else {
+//       element.style.opacity = opacity;
+//       requestAnimationFrame(animate);
+//     }
+//   }
+
+//   requestAnimationFrame(animate);
+// } // 페이지 전환
+
+///////////////////
 
 document.addEventListener("DOMContentLoaded", () => {
   const leftButtons = document.querySelectorAll(".left-button > div");
   const mainBoxes = document.querySelectorAll(".main-box");
+  const worksBoxes = document.querySelectorAll(".works1"); // ← works1 박스 선택
   let currentIndex = 0;
 
   leftButtons.forEach((button, index) => {
@@ -153,6 +212,11 @@ document.addEventListener("DOMContentLoaded", () => {
         video.pause();
         video.currentTime = 0;
       });
+
+      // ✅ works1 박스 display 전환
+      worksBoxes.forEach((box, i) => {
+        box.style.display = i === index ? "block" : "none";
+      });
     });
   });
 
@@ -165,6 +229,11 @@ document.addEventListener("DOMContentLoaded", () => {
       box.style.display = "none";
       box.style.opacity = 0;
     }
+  });
+
+  // 처음엔 works1 중 첫 번째만 보이게
+  worksBoxes.forEach((box, i) => {
+    box.style.display = i === 0 ? "block" : "none";
   });
 });
 
@@ -211,7 +280,4 @@ function fadeIn(element) {
   }
 
   requestAnimationFrame(animate);
-} // 페이지 전환
-
-///////////////////
-
+}
