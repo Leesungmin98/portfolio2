@@ -213,7 +213,7 @@ body main .container .left-menu .left-box .glitch-wrapper {
   width: 190px;
   font-family: "Pretendard", sans-serif;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 52px;
   color: rgb(17, 17, 17);
 }
@@ -407,14 +407,14 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
   height: 100%;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a p {
   display: flex;
   align-items: center;
   margin-left: 12px;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
   color: rgb(118, 118, 118);
   width: 100%;
   overflow: hidden;

@@ -144,7 +144,7 @@ body {
                         width: 190px;
                         font-family: 'Pretendard', sans-serif;
                         font-size: 40px;
-                        font-weight: 600;
+                        font-weight: 700;
                         line-height: 52px;
                         color: $color-1111;
                     } // .glitch-wrapper
@@ -365,14 +365,14 @@ body {
                                     height: 100%;
                                     overflow: hidden;
                                     white-space: nowrap;
+                                    font-size: $title-16;
+                                    line-height: 24px;
+                                    font-weight: 400;
                                     
                                     p {
                                         display: flex; 
                                         align-items: center;
                                         margin-left: 12px;
-                                        font-size: $title-16;
-                                        line-height: 24px;
-                                        font-weight: 400;
                                         color: $color-7676;
                                         width: 100%;
                                         overflow: hidden;
