@@ -397,7 +397,6 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
   font-weight: 500;
   overflow: hidden;
   white-space: nowrap;
-  transition: font-weight 0.3s;
   height: 100%;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a p {
