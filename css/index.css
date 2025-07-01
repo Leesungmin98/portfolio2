@@ -284,6 +284,7 @@ body main .container .main-menu .main-box .mbox1 {
 }
 body main .container .main-menu .main-box .mbox1 .mbox-link {
   text-decoration: none;
+  width: 1095px;
 }
 body main .container .main-menu .main-box .mbox1 .mbox-link .mbox {
   position: relative;
