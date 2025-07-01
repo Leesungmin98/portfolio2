@@ -342,6 +342,7 @@ body {
                             .works-box-inner {
                                 width: 370px;
                                 height: 56px;
+
                                 .first-a {
                                     border-top: 1px solid $color-1111;
                                 }
@@ -350,47 +351,63 @@ body {
                                     display: flex;
                                     align-items: center;
                                     font-weight: 500;
+                                    height: 100%;
                                     overflow: hidden;
                                     white-space: nowrap;
                                     
-                                    height: 100%;
                                     p {
+                                        display: flex; 
+                                        align-items: center;
                                         margin-left: 12px;
                                         font-size: $title-16;
                                         line-height: 24px;
                                         font-weight: 400;
                                         color: $color-7676;
+                                        width: 100%;
                                         overflow: hidden;
                                         white-space: nowrap;
-                                        width: 100%;
 
                                         .slide-text {
                                             display: inline-block;
+                                            white-space: nowrap;
                                             transform: translateX(0);
+                                            transition: none;
+                                            max-width: 100%;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
                                         }
                                     }
+
+                                    // hover 시
                                     &:hover {
                                         font-weight: 600;
 
-                                        .slide-text {
-                                            animation: scroll-text 6s linear infinite forwards;
+                                        p .slide-text {
+                                            overflow: visible;
+                                            text-overflow: unset;
+                                            animation: scroll-text 6s linear forwards;
                                         }
                                     }
 
-                                    &:not(:hover) .slide-text {
+                                    &:not(:hover) p .slide-text {
                                         animation: none;
                                         transform: translateX(0);
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
                                     }
                                 } // a
+                            }// .works-box-inner
+
+                                // 애니메이션 정의
                                 @keyframes scroll-text {
-                                    from {
-                                        transform: translateX(0%);
-                                    }
-                                    to {
-                                        transform: translateX(-100%);
-                                    }
+                                from {
+                                    transform: translateX(0%);
                                 }
-                            } // .works-box-inner
+                                to {
+                                    transform: translateX(-100%);
+                                }
+                                }
+
                         } // .works-box
                     } // .works
                 } // .right-box

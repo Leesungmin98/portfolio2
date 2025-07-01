@@ -395,33 +395,44 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
   display: flex;
   align-items: center;
   font-weight: 500;
+  height: 100%;
   overflow: hidden;
   white-space: nowrap;
-  height: 100%;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a p {
+  display: flex;
+  align-items: center;
   margin-left: 12px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: rgb(118, 118, 118);
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a p .slide-text {
   display: inline-block;
+  white-space: nowrap;
   transform: translateX(0);
+  transition: none;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a:hover {
   font-weight: 600;
 }
-body main .container .right-menu .right-box .works .works-box .works-box-inner a:hover .slide-text {
-  animation: scroll-text 6s linear infinite forwards;
+body main .container .right-menu .right-box .works .works-box .works-box-inner a:hover p .slide-text {
+  overflow: visible;
+  text-overflow: unset;
+  animation: scroll-text 6s linear forwards;
 }
-body main .container .right-menu .right-box .works .works-box .works-box-inner a:not(:hover) .slide-text {
+body main .container .right-menu .right-box .works .works-box .works-box-inner a:not(:hover) p .slide-text {
   animation: none;
   transform: translateX(0);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @keyframes scroll-text {
   from {
