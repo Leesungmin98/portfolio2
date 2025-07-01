@@ -452,11 +452,64 @@ body main .container .right-menu .right-box .works .more {
   height: 32px;
   border: 1px solid rgb(17, 17, 17);
   margin-top: 16px;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 body main .container .right-menu .right-box .works .more p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+}
+body main .container .right-menu .right-box .about h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+  margin-bottom: 16px;
+}
+body main .container .right-menu .right-box .about .about-box {
+  display: flex;
+  width: 370px;
+  height: 220px;
+  align-items: center;
+  border-top: 1px solid rgb(17, 17, 17);
+  border-bottom: 1px solid rgb(17, 17, 17);
+}
+body main .container .right-menu .right-box .about .about-box .about-img {
+  width: 140px;
+  height: 180px;
+  margin-right: 16px;
+  background-color: rgb(188, 201, 197);
+}
+body main .container .right-menu .right-box .about .about-box .about-text li p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+}
+body main .container .right-menu .right-box .about .about-box .about-text li .about-date {
+  color: rgb(118, 118, 118);
+}
+body main .container .right-menu .right-box .about .about-box .about-text .about1 {
+  margin-bottom: 36px;
+}
+body main .container .right-menu .right-box .about .about-box .about-text .about3 {
+  margin-top: 4px;
+}
+body main .container .right-menu .right-box .about .more {
+  width: 72px;
+  height: 32px;
+  border: 1px solid rgb(17, 17, 17);
+  margin-top: 16px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .container .right-menu .right-box .about .more p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;

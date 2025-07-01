@@ -419,6 +419,7 @@ body {
                             height: 32px;
                             border: 1px solid $color-1111;
                             margin-top: 16px;
+                            margin-bottom: 70px;
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -430,6 +431,71 @@ body {
                             }
                         } // .more
                     } // .works
+
+                    .about {
+                        h2 {
+                            font-size: $title-24;
+                            line-height: 34px;
+                            font-weight: 600;
+                            color: $color-1111;
+                            margin-bottom: 16px;
+                        }
+                        .about-box {
+                            
+                            display: flex;
+                            width: 370px;
+                            height: 220px;
+                            align-items: center;
+                            border-top: 1px solid $color-1111;
+                            border-bottom: 1px solid $color-1111;
+                            .about-img {
+                                
+                                width: 140px;
+                                height: 180px;
+                                margin-right: 16px;
+                                background-color: rgb(188, 201, 197);
+                                img {
+
+                                }
+                            } // .about-img
+                            .about-text {
+                                
+                                li {
+                                    p {
+                                        font-size: $title-16;
+                                        line-height: 24px;
+                                        font-weight: 500;
+                                        color: $color-1111;
+                                    }
+                                    .about-date {
+                                        color: $color-7676;
+                                    }
+                                }
+                                .about1 {
+                                    margin-bottom: 36px;
+                                }
+                                .about3 {
+                                    margin-top: 4px;
+                                }
+                            } // about-text
+                        } // .about-box
+                        .more {
+                            width: 72px;
+                            height: 32px;
+                            border: 1px solid $color-1111;
+                            margin-top: 16px;
+                            margin-bottom: 70px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p {
+                                font-size: $title-14;
+                                line-height: 20px;
+                                font-weight: 500;
+                                color: $color-1111;
+                            }
+                        } // .more
+                    } // .about
                 } // .right-box
             } // .right-menu
         } // .container
