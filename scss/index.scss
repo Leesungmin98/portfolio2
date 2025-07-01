@@ -326,12 +326,41 @@ body {
                 .right-box {
                     position: fixed;
                     width: 396px;
-                    height: 100vh;
+                    height: 100%;
                     overflow-y: auto;
                     padding-right: 12px;
                     .works {
-                        height: 2000px;
-                        background-color: aquamarine;
+                        // height: 1000px;
+                        h2 {
+                            font-size: $title-24;
+                            line-height: 34px;
+                            font-weight: 600;
+                            color: $color-1111;
+                            margin-bottom: 16px;
+                        }
+                        .works-box {
+                            .works-box-inner {
+                                width: 370px;
+                                height: 56px;
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    height: 100%;
+                                    white-space: nowrap;
+                                    border-top: 1px solid $color-1111;
+                                    p {
+                                        margin-left: 12px;
+                                        font-size: $title-16;
+                                        line-height: 24px;
+                                        font-weight: 400;
+                                        color: $color-1111;
+                                        white-space: nowrap;  
+                                        overflow: hidden;    
+                                        text-overflow: ellipsis; 
+                                    }
+                                }
+                            }
+                        } // .works-box
                     } // .works
                 } // .right-box
             } // .right-menu
