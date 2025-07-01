@@ -132,7 +132,6 @@ body {
             padding-top: 40px;
             display: flex;
             align-items: center;
-          
             .left-menu {
                 width: 269px;
                 height: 100vh;
@@ -219,6 +218,7 @@ body {
             .main-menu {
                 .main-box {
                     display: none;
+                    opacity: 0;
                     &.active {
                         display: block;
                     }
@@ -298,6 +298,11 @@ body {
                     width: 1175px;
                     height: 100vh;
                 } // .main-box
+
+                .dummies {
+                    height: 70px;
+                    // background-color: aqua;
+                }
 
                 .main-box3 {
                     .mbox {

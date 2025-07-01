@@ -274,6 +274,7 @@ body main .container .left-menu .left-box .year p {
 }
 body main .container .main-menu .main-box {
   display: none;
+  opacity: 0;
 }
 body main .container .main-menu .main-box.active {
   display: block;
@@ -348,6 +349,9 @@ body main .container .main-menu .main-box .mbox1 .mbox1-text {
 body main .container .main-menu .main-box {
   width: 1175px;
   height: 100vh;
+}
+body main .container .main-menu .dummies {
+  height: 70px;
 }
 body main .container .main-menu .main-box3 .mbox {
   width: 1095px;
