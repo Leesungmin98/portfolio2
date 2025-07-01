@@ -151,7 +151,7 @@ body {
         
                     #glitchText {
                         display: inline-block;
-                        letter-spacing: 1px;
+                        letter-spacing: -0.5px;
                     } // #glitchText
 
                     .left-text {
@@ -209,7 +209,7 @@ body {
                         p {
                             font-size: $title-14;
                             line-height: 20px;
-                            color: $color-9999;
+                            color: $color-7676;
                         }
                     } // .year
                 } // .left-box
@@ -523,6 +523,9 @@ body {
                                     display: flex;
                                     a {
                                         margin-left: 12px;
+                                        &:hover{
+                                            color: $color-7676;
+                                        }
                                     }
                                 } // .c1
                                 .contact-img-box {

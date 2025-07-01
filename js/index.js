@@ -35,7 +35,7 @@ updateClock(); // 시계
       const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789가나다라마바사아자차카타파하!@#$%^&*()-_+=~';
       let currentIndex = 0;
 
-      function glitchChar(toChar, duration = 300, interval = 30) {
+      function glitchChar(toChar, duration = 200, interval = 30) {
         return new Promise(resolve => {
           let elapsed = 0;
           const glitchInterval = setInterval(() => {

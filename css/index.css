@@ -219,7 +219,7 @@ body main .container .left-menu .left-box .glitch-wrapper {
 }
 body main .container .left-menu .left-box #glitchText {
   display: inline-block;
-  letter-spacing: 1px;
+  letter-spacing: -0.5px;
 }
 body main .container .left-menu .left-box .left-text {
   width: 190px;
@@ -270,7 +270,7 @@ body main .container .left-menu .left-box .year {
 body main .container .left-menu .left-box .year p {
   font-size: 14px;
   line-height: 20px;
-  color: rgb(153, 153, 153);
+  color: rgb(118, 118, 118);
 }
 body main .container .main-menu .main-box {
   display: none;
@@ -545,6 +545,9 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .c1 a {
   margin-left: 12px;
+}
+body main .container .right-menu .right-box .contact .contact-box .contact-inner .c1 a:hover {
+  color: rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .contact-img-box {
   width: 28px;
