@@ -216,13 +216,13 @@ function fadeIn(element) {
 ///////////////////
 
 function easeInOut(t) {
-  return t < 0.5
+  return t < 0.2
     ? 2 * t * t
     : -1 + (4 - 2 * t) * t;
 }
 
 function fadeIn(element) {
-  const duration = 300;
+  const duration = 150;
   const start = performance.now();
 
   element.style.display = "block";
