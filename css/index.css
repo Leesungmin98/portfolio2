@@ -272,7 +272,7 @@ body main .container .left-menu .left-box .sns a {
 }
 body main .container .left-menu .left-box .sns a img {
   margin-bottom: 8px;
-  margin-right: 4px;
+  margin-right: 6px;
   width: 28px !important;
   height: 28px !important;
 }
@@ -568,6 +568,18 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
 body main .container .right-menu .right-box .contact .contact-box .contact-inner2 {
   border-top: 1px solid rgb(17, 17, 17);
   border-bottom: 1px solid rgb(17, 17, 17);
+}
+body main .container .right-menu .right-box .contact .contact-box .sns {
+  display: flex;
+}
+body main .container .right-menu .right-box .contact .contact-box .sns a {
+  margin-top: 16px;
+}
+body main .container .right-menu .right-box .contact .contact-box .sns a img {
+  margin-bottom: 8px;
+  margin-right: 6px;
+  width: 28px !important;
+  height: 28px !important;
 }
 body main .container .right-menu .right-box .dummies {
   height: 200px;

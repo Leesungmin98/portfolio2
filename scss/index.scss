@@ -210,7 +210,7 @@ body {
                             margin-top: 460px;
                             img {
                                 margin-bottom: 8px;
-                                margin-right: 4px;
+                                margin-right: 6px;
                                 width: 28px !important;
                                 height: 28px !important;
                             }
@@ -552,6 +552,20 @@ body {
                                 border-top: 1px solid $color-1111;
                                 border-bottom: 1px solid $color-1111;
                             }
+
+                            .sns {
+                                display: flex; 
+                            
+                                a {   
+                                    margin-top: 16px;
+                                    img {
+                                        margin-bottom: 8px;
+                                        margin-right: 6px;
+                                        width: 28px !important;
+                                        height: 28px !important;
+                                    }
+                                }
+                            } // .sns
                         } // .contact-box
                     } // .contact
 
