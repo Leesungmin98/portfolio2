@@ -342,7 +342,6 @@ body {
                             .works-box-inner {
                                 width: 370px;
                                 height: 56px;
-
                                 .first-a {
                                     border-top: 1px solid $color-1111;
                                 }
@@ -350,50 +349,47 @@ body {
                                 a {
                                     display: flex;
                                     align-items: center;
-                                    font-weight: 400;
-                                    height: 100%;
-                                    white-space: nowrap;
-                                    position: relative;
+                                    font-weight: 500;
                                     overflow: hidden;
-
+                                    white-space: nowrap;
+                                    transition: font-weight 0.3s;
+                                    height: 100%;
                                     p {
                                         margin-left: 12px;
                                         font-size: $title-16;
                                         line-height: 24px;
                                         font-weight: 400;
                                         color: $color-7676;
-                                        white-space: nowrap;
                                         overflow: hidden;
-                                        text-overflow: ellipsis;
-                                        position: relative;
-                                        width: 100%; 
-                                        // background-color: aqua;
+                                        white-space: nowrap;
+                                        width: 100%;
 
-                                        span.slide-text {
+                                        .slide-text {
                                             display: inline-block;
-                                            padding-left: 0%;
-                                            animation: scroll-text 8s linear infinite;
+                                            transform: translateX(0);
                                         }
                                     }
-
                                     &:hover {
                                         font-weight: 600;
 
-                                       .slide-text {
-                                            animation-play-state: running;
+                                        .slide-text {
+                                            animation: scroll-text 6s linear infinite forwards;
                                         }
                                     }
 
-                                    // 기본 상태는 멈춤
-                                    p span.slide-text {
-                                        animation-play-state: paused;
+                                    &:not(:hover) .slide-text {
+                                        animation: none;
+                                        transform: translateX(0);
                                     }
-                                    @keyframes scroll-text {
-                                        0%   { transform: translateX(0%); }
-                                        100% { transform: translateX(-100%); }
-                                    }
-
                                 } // a
+                                @keyframes scroll-text {
+                                    from {
+                                        transform: translateX(0%);
+                                    }
+                                    to {
+                                        transform: translateX(-100%);
+                                    }
+                                }
                             } // .works-box-inner
                         } // .works-box
                     } // .works
