@@ -144,7 +144,7 @@ body {
                         width: 190px;
                         font-family: 'Pretendard', sans-serif;
                         font-size: 40px;
-                        font-weight: 700;
+                        font-weight: 800;
                         line-height: 52px;
                         color: $color-1111;
                     } // .glitch-wrapper
@@ -203,13 +203,25 @@ body {
                             border-bottom: 1px solid $color-1111;
                         }
                     } // .left-button
-
+                    .sns {
+                        display: flex; 
+                       
+                        a {   
+                            margin-top: 460px;
+                            img {
+                                margin-bottom: 8px;
+                                margin-right: 4px;
+                                width: 28px !important;
+                                height: 28px !important;
+                            }
+                        }
+                    } // .sns
                     .year {
-                        padding-top: 500px;
+                        
                         p {
                             font-size: $title-14;
                             line-height: 20px;
-                            color: $color-1111;
+                            color: $color-7676;
                         }
                     } // .year
                 } // .left-box

@@ -213,7 +213,7 @@ body main .container .left-menu .left-box .glitch-wrapper {
   width: 190px;
   font-family: "Pretendard", sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 52px;
   color: rgb(17, 17, 17);
 }
@@ -264,13 +264,22 @@ body main .container .left-menu .left-box .left-button .left-button-middle {
 body main .container .left-menu .left-box .left-button .left-button-last {
   border-bottom: 1px solid rgb(17, 17, 17);
 }
-body main .container .left-menu .left-box .year {
-  padding-top: 500px;
+body main .container .left-menu .left-box .sns {
+  display: flex;
+}
+body main .container .left-menu .left-box .sns a {
+  margin-top: 460px;
+}
+body main .container .left-menu .left-box .sns a img {
+  margin-bottom: 8px;
+  margin-right: 4px;
+  width: 28px !important;
+  height: 28px !important;
 }
 body main .container .left-menu .left-box .year p {
   font-size: 14px;
   line-height: 20px;
-  color: rgb(17, 17, 17);
+  color: rgb(118, 118, 118);
 }
 body main .container .main-menu .main-box {
   display: none;
