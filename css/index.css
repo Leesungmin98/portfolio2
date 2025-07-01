@@ -391,6 +391,10 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner {
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
   border-top: 1px solid rgb(17, 17, 17);
 }
+body main .container .right-menu .right-box .works .works-box .works-box-inner .last-a {
+  border-top: 1px solid rgb(17, 17, 17);
+  border-bottom: 1px solid rgb(17, 17, 17);
+}
 body main .container .right-menu .right-box .works .works-box .works-box-inner a {
   display: flex;
   align-items: center;
@@ -441,4 +445,19 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
   to {
     transform: translateX(-100%);
   }
+}
+body main .container .right-menu .right-box .works .more {
+  width: 72px;
+  height: 32px;
+  border: 1px solid rgb(17, 17, 17);
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .container .right-menu .right-box .works .more a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
 }/*# sourceMappingURL=index.css.map */
