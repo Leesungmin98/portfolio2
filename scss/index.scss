@@ -451,19 +451,15 @@ body {
                         } // .works-box
                         .more {
                             width: 72px;
-                            height: 32px;
-                            border: 1px solid $color-7676;
-                            margin-top: 16px;
+                            margin-top: 12px;
                             margin-bottom: 48px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 20px;
+                            // background-color: aquamarine;
+                         
                             p {
-                                font-size: $title-14;
-                                line-height: 20px;
+                                font-size: $title-16;
+                                line-height: 24px;
                                 font-weight: 500;
-                                color: $color-1111;
+                                color: $color-7676;
                             }
                         } // .more
                     } // .works
@@ -515,21 +511,17 @@ body {
                                 }
                             } // about-text
                         } // .about-box
-                        .more {
+                           .more {
                             width: 72px;
-                            height: 32px;
-                            border: 1px solid $color-7676;
-                            margin-top: 16px;
+                            margin-top: 12px;
                             margin-bottom: 48px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 20px;
+                            // background-color: aquamarine;
+                         
                             p {
-                                font-size: $title-14;
-                                line-height: 20px;
+                                font-size: $title-16;
+                                line-height: 24px;
                                 font-weight: 500;
-                                color: $color-1111;
+                                color: $color-7676;
                             }
                         } // .more
                     } // .about

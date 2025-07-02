@@ -461,20 +461,14 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
 }
 body main .container .right-menu .right-box .works .more {
   width: 72px;
-  height: 32px;
-  border: 1px solid rgb(118, 118, 118);
-  margin-top: 16px;
+  margin-top: 12px;
   margin-bottom: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
 }
 body main .container .right-menu .right-box .works .more p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 500;
-  color: rgb(17, 17, 17);
+  color: rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .about h2 {
   font-size: 24px;
@@ -517,20 +511,14 @@ body main .container .right-menu .right-box .about .about-box .about-text .about
 }
 body main .container .right-menu .right-box .about .more {
   width: 72px;
-  height: 32px;
-  border: 1px solid rgb(118, 118, 118);
-  margin-top: 16px;
+  margin-top: 12px;
   margin-bottom: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
 }
 body main .container .right-menu .right-box .about .more p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 500;
-  color: rgb(17, 17, 17);
+  color: rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .contact h2 {
   font-size: 24px;
