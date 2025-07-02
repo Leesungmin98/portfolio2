@@ -6,12 +6,14 @@ body {
     header {
         width: 100%;
         height: 56px;
+        margin-bottom: 40px;
         nav {
             position: fixed;
             width: 100%;
             height: 56px;
             background-color: $color-white;
             z-index: 10000;
+           
             .container {
                 width: 100%;
                 height: 100%;
@@ -20,7 +22,8 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                // background-color: bisque;
+                border-bottom: 1px solid $color-1111;
+                
                 .menu-btn {
                     width: 28px;
                     height: 28px;
