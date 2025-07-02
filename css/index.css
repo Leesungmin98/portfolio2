@@ -93,8 +93,7 @@ body header nav {
   position: fixed;
   width: 100%;
   height: 40px;
-  border-bottom: solid 1px rgb(17, 17, 17);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(17, 17, 17);
   z-index: 10000;
 }
 body header nav .container {
@@ -120,7 +119,7 @@ body header nav .container .menu-btn .bar {
   position: absolute;
   width: 19px;
   height: 2px;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(255, 255, 255);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 body header nav .container .menu-btn .bar:nth-child(1) {
@@ -138,6 +137,7 @@ body header nav .container .menu-btn.active .bar:nth-child(2) {
 body header nav .container .phone a {
   font-size: 14px;
   line-height: 20px;
+  color: rgb(255, 255, 255);
 }
 body header nav .container .phone a span {
   font-weight: 700;
@@ -148,7 +148,7 @@ body header nav .container .phone a:hover {
 body header nav .container #clock {
   font-size: 14px;
   line-height: 20px;
-  color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
 }
 body .menu-overlay {
   position: fixed;
@@ -157,7 +157,7 @@ body .menu-overlay {
   width: 14%;
   height: 100vh;
   background-color: rgb(255, 255, 255);
-  border-right: 1px solid rgb(17, 17, 17);
+  border-right: 2px solid rgb(17, 17, 17);
   display: flex;
   align-items: center;
   opacity: 0;
@@ -255,14 +255,14 @@ body main .container .left-menu .left-box .left-button div.active p {
   color: rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .left-button .left-button-first {
-  border-top: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .left-button .left-button-middle {
-  border-top: 1px solid rgb(17, 17, 17);
-  border-bottom: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
+  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .left-button .left-button-last {
-  border-bottom: 1px solid rgb(17, 17, 17);
+  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .sns {
   display: flex;
@@ -403,11 +403,11 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner {
   height: 56px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
-  border-top: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .last-a {
-  border-top: 1px solid rgb(17, 17, 17);
-  border-bottom: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
+  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a {
   display: flex;
@@ -463,7 +463,7 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
 body main .container .right-menu .right-box .works .more {
   width: 72px;
   height: 32px;
-  border: 1px solid rgb(17, 17, 17);
+  border: 2px solid rgb(17, 17, 17);
   margin-top: 16px;
   margin-bottom: 70px;
   display: flex;
@@ -488,8 +488,8 @@ body main .container .right-menu .right-box .about .about-box {
   width: 340px;
   height: 180px;
   align-items: center;
-  border-top: 1px solid rgb(17, 17, 17);
-  border-bottom: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
+  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .about .about-box .about-img {
   width: 100px;
@@ -518,7 +518,7 @@ body main .container .right-menu .right-box .about .about-box .about-text .about
 body main .container .right-menu .right-box .about .more {
   width: 72px;
   height: 32px;
-  border: 1px solid rgb(17, 17, 17);
+  border: 2px solid rgb(17, 17, 17);
   margin-top: 16px;
   margin-bottom: 70px;
   display: flex;
@@ -547,7 +547,7 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .c1 {
   display: flex;
@@ -566,8 +566,8 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
   width: 100%;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner2 {
-  border-top: 1px solid rgb(17, 17, 17);
-  border-bottom: 1px solid rgb(17, 17, 17);
+  border-top: 2px solid rgb(17, 17, 17);
+  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .contact .contact-box .sns {
   display: flex;
