@@ -451,7 +451,7 @@ body {
                         } // .works-box
                         .more {
                             width: 72px;
-                            margin-top: 12px;
+                            margin-top: 16px;
                             margin-bottom: 48px;
                             // background-color: aquamarine;
                          
@@ -460,6 +460,13 @@ body {
                                 line-height: 24px;
                                 font-weight: 500;
                                 color: $color-7676;
+                            }
+                            .icon-box {
+                                width: 16px;
+                                height: 16px;
+                                img {
+                                    width: 100%;
+                                }
                             }
                         } // .more
                     } // .works
@@ -513,7 +520,7 @@ body {
                         } // .about-box
                            .more {
                             width: 72px;
-                            margin-top: 12px;
+                            margin-top: 16px;
                             margin-bottom: 48px;
                             // background-color: aquamarine;
                          
