@@ -118,7 +118,7 @@ body header nav .container .menu-btn {
 body header nav .container .menu-btn .bar {
   position: absolute;
   width: 19px;
-  height: 2px;
+  height: 3px;
   background-color: rgb(17, 17, 17);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
