@@ -253,8 +253,8 @@ body main .container .main-menu .main-box .mbox1 .mbox-link {
 }
 body main .container .main-menu .main-box .mbox1 .mbox-link .mbox {
   position: relative;
-  width: 1181px;
-  height: 628px;
+  width: 1161px;
+  height: 608px;
   background-color: #ffffff;
   overflow: hidden;
   cursor: pointer;
@@ -317,15 +317,15 @@ body main .container .main-menu .main-box .mbox1 .mbox1-text {
   color: rgb(118, 118, 118);
 }
 body main .container .main-menu .main-box {
-  width: 1245px;
+  width: 1205px;
   height: 100vh;
 }
 body main .container .main-menu .dummies {
   height: 70px;
 }
 body main .container .main-menu .main-box3 .mbox {
-  width: 1181px;
-  height: 628px;
+  width: 1161px;
+  height: 608px;
 }
 body main .container .main-menu .main-box3 .mbox video {
   width: 100%;
@@ -342,7 +342,7 @@ body main .container .right-menu {
 }
 body main .container .right-menu .right-box {
   position: fixed;
-  width: 300px;
+  width: 340px;
   height: 100%;
   overflow-y: auto;
   padding-right: 12px;
@@ -355,7 +355,7 @@ body main .container .right-menu .right-box h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .left-button {
-  width: 274px;
+  width: 294px;
   text-align: left;
   margin-bottom: 48px;
 }
@@ -395,7 +395,7 @@ body main .container .right-menu .right-box .works h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner {
-  width: 274px;
+  width: 294px;
   height: 56px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
@@ -482,7 +482,7 @@ body main .container .right-menu .right-box .about h2 {
 }
 body main .container .right-menu .right-box .about .about-box {
   display: flex;
-  width: 274px;
+  width: 294px;
   height: 180px;
   align-items: center;
   border-top: 1px solid rgb(118, 118, 118);
@@ -537,7 +537,7 @@ body main .container .right-menu .right-box .contact h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .contact .contact-box {
-  width: 274px;
+  width: 294px;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner {
   width: 100%;

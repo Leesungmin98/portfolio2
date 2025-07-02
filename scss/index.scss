@@ -189,6 +189,7 @@ body {
             } // .left-menu
 
             .main-menu {
+               
                 .main-box {
                     display: none;
                     opacity: 0;
@@ -203,8 +204,8 @@ body {
                             width: 1165px;
                             .mbox {
                                 position: relative;
-                                width: 1181px;
-                                height: 628px;
+                                width: 1161px;
+                                height: 608px;
                                 background-color: #ffffff;
                                 overflow: hidden;
                                 cursor: pointer;
@@ -274,7 +275,7 @@ body {
                     } // .mbox1
                 } // .main-box
                 .main-box {
-                    width: 1245px;
+                    width: 1205px;
                     height: 100vh;
                     // background-color: aqua;
                 } // .main-box
@@ -286,8 +287,8 @@ body {
 
                 .main-box3 {
                     .mbox {
-                        width: 1181px;
-                        height: 628px;
+                        width: 1161px;
+                        height: 608px;
                         video {
                             width: 100%;
                             height: 100%;  
@@ -305,7 +306,7 @@ body {
                 height: 100vh;
                 .right-box {
                     position: fixed;
-                    width: 300px;
+                    width: 340px;
                     height: 100%;
                     overflow-y: auto;
                     padding-right: 12px;
@@ -321,7 +322,7 @@ body {
                    
 
                     .left-button {
-                        width: 274px;
+                        width: 294px;
                         text-align: left;
                         margin-bottom: 48px;
                    
@@ -371,7 +372,7 @@ body {
                         }
                         .works-box {
                             .works-box-inner {
-                                width: 274px;
+                                width: 294px;
                                 height: 56px;
 
                                 .first-a {
@@ -474,7 +475,7 @@ body {
                         .about-box {
                             
                             display: flex;
-                            width: 274px;
+                            width: 294px;
                             height: 180px;
                             align-items: center;
                             border-top: 1px solid $color-7676;
@@ -538,7 +539,7 @@ body {
                             margin-bottom: 16px;
                         }
                         .contact-box {
-                            width: 274px;
+                            width: 294px;
                             .contact-inner {
                                 width: 100%;
                                 height: 80px;
