@@ -342,7 +342,7 @@ body main .container .right-menu {
 }
 body main .container .right-menu .right-box {
   position: fixed;
-  width: 326px;
+  width: 300px;
   height: 100%;
   overflow-y: auto;
   padding-right: 12px;
@@ -355,7 +355,7 @@ body main .container .right-menu .right-box h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .left-button {
-  width: 300px;
+  width: 274px;
   text-align: left;
   margin-bottom: 48px;
 }
@@ -395,7 +395,7 @@ body main .container .right-menu .right-box .works h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner {
-  width: 300px;
+  width: 274px;
   height: 56px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
@@ -482,7 +482,7 @@ body main .container .right-menu .right-box .about h2 {
 }
 body main .container .right-menu .right-box .about .about-box {
   display: flex;
-  width: 300px;
+  width: 274px;
   height: 180px;
   align-items: center;
   border-top: 1px solid rgb(118, 118, 118);
@@ -537,7 +537,7 @@ body main .container .right-menu .right-box .contact h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .contact .contact-box {
-  width: 300px;
+  width: 274px;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner {
   width: 100%;
