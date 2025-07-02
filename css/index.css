@@ -147,6 +147,7 @@ body header nav .container .phone #glitchText {
   letter-spacing: -0.5px;
 }
 body header nav .container #clock {
+  font-weight: 600;
   font-size: 14px;
   line-height: 20px;
   color: rgb(17, 17, 17);
