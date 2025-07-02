@@ -92,14 +92,14 @@ body header {
 body header nav {
   position: fixed;
   width: 100%;
-  height: 40px;
-  background-color: rgb(17, 17, 17);
+  height: 56px;
+  background-color: rgb(255, 255, 255);
   z-index: 10000;
 }
 body header nav .container {
   width: 100%;
   height: 100%;
-  max-width: 1840px;
+  max-width: 1540px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -119,7 +119,7 @@ body header nav .container .menu-btn .bar {
   position: absolute;
   width: 19px;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(17, 17, 17);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 body header nav .container .menu-btn .bar:nth-child(1) {
@@ -134,45 +134,48 @@ body header nav .container .menu-btn.active .bar:nth-child(1) {
 body header nav .container .menu-btn.active .bar:nth-child(2) {
   transform: rotate(-45deg);
 }
-body header nav .container .phone a {
-  font-size: 14px;
-  line-height: 20px;
-  color: rgb(255, 255, 255);
+body header nav .container .phone .glitch-wrapper {
+  width: 82px;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  color: rgb(17, 17, 17);
 }
-body header nav .container .phone a span {
-  font-weight: 700;
-}
-body header nav .container .phone a:hover {
-  color: rgb(118, 118, 118);
+body header nav .container .phone #glitchText {
+  display: inline-block;
+  letter-spacing: -0.5px;
 }
 body header nav .container #clock {
   font-size: 14px;
   line-height: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(17, 17, 17);
 }
 body .menu-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 14%;
-  height: 100vh;
-  background-color: rgb(255, 255, 255);
-  border-right: 2px solid rgb(17, 17, 17);
+  width: 100%;
+  height: 25vh;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(17, 17, 17);
   display: flex;
   align-items: center;
+  justify-content: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
   z-index: 1000;
+  display: flex;
 }
 body .menu-overlay ul {
-  padding-bottom: 660px;
-  padding-left: 40px;
+  margin-top: 24px;
+  margin-right: 24px;
   list-style: none;
-  text-align: left;
+  text-align: center;
 }
 body .menu-overlay ul li {
-  margin: 16px 0;
+  margin: 16px 0px;
 }
 body .menu-overlay ul li a {
   text-decoration: none;
@@ -194,9 +197,9 @@ body main {
 body main .container {
   width: 100%;
   height: 100%;
-  max-width: 1840px;
+  max-width: 1540px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 32px;
   display: flex;
   align-items: center;
 }
@@ -209,18 +212,6 @@ body main .container .left-menu .left-box {
   width: 269px;
   height: 100%;
 }
-body main .container .left-menu .left-box .glitch-wrapper {
-  width: 190px;
-  font-family: "Pretendard", sans-serif;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 52px;
-  color: rgb(17, 17, 17);
-}
-body main .container .left-menu .left-box #glitchText {
-  display: inline-block;
-  letter-spacing: -0.5px;
-}
 body main .container .left-menu .left-box .left-text {
   width: 190px;
   margin-top: 12px;
@@ -230,39 +221,6 @@ body main .container .left-menu .left-box .left-text p {
   line-height: 20px;
   letter-spacing: 0.25px;
   color: rgb(118, 118, 118);
-}
-body main .container .left-menu .left-box .left-button {
-  width: 190px;
-  text-align: left;
-  margin-top: 40px;
-}
-body main .container .left-menu .left-box .left-button div {
-  height: 56px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-body main .container .left-menu .left-box .left-button div p {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  color: rgb(153, 153, 153);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-body main .container .left-menu .left-box .left-button div.active p {
-  color: rgb(17, 17, 17);
-}
-body main .container .left-menu .left-box .left-button .left-button-first {
-  border-top: 2px solid rgb(17, 17, 17);
-}
-body main .container .left-menu .left-box .left-button .left-button-middle {
-  border-top: 2px solid rgb(17, 17, 17);
-  border-bottom: 2px solid rgb(17, 17, 17);
-}
-body main .container .left-menu .left-box .left-button .left-button-last {
-  border-bottom: 2px solid rgb(17, 17, 17);
 }
 body main .container .left-menu .left-box .sns {
   display: flex;
@@ -293,13 +251,13 @@ body main .container .main-menu .main-box .mbox1 {
 }
 body main .container .main-menu .main-box .mbox1 .mbox-link {
   text-decoration: none;
-  width: 1095px;
+  width: 1165px;
 }
 body main .container .main-menu .main-box .mbox1 .mbox-link .mbox {
   position: relative;
-  width: 1095px;
-  height: 612px;
-  background-color: #cfcfcf;
+  width: 1181px;
+  height: 628px;
+  background-color: #ffffff;
   overflow: hidden;
   cursor: pointer;
 }
@@ -361,7 +319,7 @@ body main .container .main-menu .main-box .mbox1 .mbox1-text {
   color: rgb(118, 118, 118);
 }
 body main .container .main-menu .main-box {
-  width: 1175px;
+  width: 1245px;
   height: 100vh;
 }
 body main .container .main-menu .dummies {
@@ -386,10 +344,50 @@ body main .container .right-menu {
 }
 body main .container .right-menu .right-box {
   position: fixed;
-  width: 396px;
+  width: 326px;
   height: 100%;
   overflow-y: auto;
   padding-right: 12px;
+}
+body main .container .right-menu .right-box h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+  margin-bottom: 16px;
+}
+body main .container .right-menu .right-box .left-button {
+  width: 300px;
+  text-align: left;
+  margin-bottom: 48px;
+}
+body main .container .right-menu .right-box .left-button div {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+body main .container .right-menu .right-box .left-button div p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+body main .container .right-menu .right-box .left-button div.active p {
+  color: rgb(17, 17, 17);
+}
+body main .container .right-menu .right-box .left-button .left-button-first {
+  border-top: 1px solid rgb(118, 118, 118);
+}
+body main .container .right-menu .right-box .left-button .left-button-middle {
+  border-top: 1px solid rgb(118, 118, 118);
+  border-bottom: 1px solid rgb(118, 118, 118);
+}
+body main .container .right-menu .right-box .left-button .left-button-last {
+  border-bottom: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .works h2 {
   font-size: 24px;
@@ -399,15 +397,15 @@ body main .container .right-menu .right-box .works h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner {
-  width: 370px;
+  width: 300px;
   height: 56px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
-  border-top: 2px solid rgb(17, 17, 17);
+  border-top: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .last-a {
-  border-top: 2px solid rgb(17, 17, 17);
-  border-bottom: 2px solid rgb(17, 17, 17);
+  border-top: 1px solid rgb(118, 118, 118);
+  border-bottom: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner a {
   display: flex;
@@ -463,12 +461,13 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
 body main .container .right-menu .right-box .works .more {
   width: 72px;
   height: 32px;
-  border: 2px solid rgb(17, 17, 17);
+  border: 1px solid rgb(118, 118, 118);
   margin-top: 16px;
-  margin-bottom: 70px;
+  margin-bottom: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 body main .container .right-menu .right-box .works .more p {
   font-size: 14px;
@@ -485,11 +484,11 @@ body main .container .right-menu .right-box .about h2 {
 }
 body main .container .right-menu .right-box .about .about-box {
   display: flex;
-  width: 340px;
+  width: 300px;
   height: 180px;
   align-items: center;
-  border-top: 2px solid rgb(17, 17, 17);
-  border-bottom: 2px solid rgb(17, 17, 17);
+  border-top: 1px solid rgb(118, 118, 118);
+  border-bottom: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .about .about-box .about-img {
   width: 100px;
@@ -518,12 +517,13 @@ body main .container .right-menu .right-box .about .about-box .about-text .about
 body main .container .right-menu .right-box .about .more {
   width: 72px;
   height: 32px;
-  border: 2px solid rgb(17, 17, 17);
+  border: 1px solid rgb(118, 118, 118);
   margin-top: 16px;
-  margin-bottom: 70px;
+  margin-bottom: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 body main .container .right-menu .right-box .about .more p {
   font-size: 14px;
@@ -539,7 +539,7 @@ body main .container .right-menu .right-box .contact h2 {
   margin-bottom: 16px;
 }
 body main .container .right-menu .right-box .contact .contact-box {
-  width: 370px;
+  width: 300px;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner {
   width: 100%;
@@ -547,7 +547,7 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid rgb(17, 17, 17);
+  border-top: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .c1 {
   display: flex;
@@ -556,7 +556,7 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
   margin-left: 12px;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .c1 a:hover {
-  color: rgb(118, 118, 118);
+  color: c;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner .contact-img-box {
   width: 28px;
@@ -566,8 +566,8 @@ body main .container .right-menu .right-box .contact .contact-box .contact-inner
   width: 100%;
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner2 {
-  border-top: 2px solid rgb(17, 17, 17);
-  border-bottom: 2px solid rgb(17, 17, 17);
+  border-top: 1px solid rgb(118, 118, 118);
+  border-bottom: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .contact .contact-box .sns {
   display: flex;
