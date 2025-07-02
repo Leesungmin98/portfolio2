@@ -271,10 +271,10 @@ body main .container .left-menu .left-box .sns a {
   margin-top: 460px;
 }
 body main .container .left-menu .left-box .sns a img {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   margin-right: 6px;
-  width: 28px !important;
-  height: 28px !important;
+  width: 28px;
+  height: 28px;
 }
 body main .container .left-menu .left-box .year p {
   font-size: 14px;
@@ -578,8 +578,8 @@ body main .container .right-menu .right-box .contact .contact-box .sns a {
 body main .container .right-menu .right-box .contact .contact-box .sns a img {
   margin-bottom: 8px;
   margin-right: 6px;
-  width: 28px !important;
-  height: 28px !important;
+  width: 28px;
+  height: 28px;
 }
 body main .container .right-menu .right-box .dummies {
   height: 200px;
