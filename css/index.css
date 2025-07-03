@@ -137,7 +137,7 @@ body header nav .container .menu-btn.active .bar:nth-child(2) {
   transform: rotate(-45deg);
 }
 body header nav .container .phone .glitch-wrapper {
-  width: 105px;
+  width: 120px;
   font-family: "Pretendard", sans-serif;
   font-size: 20px;
   font-weight: 900;
@@ -147,8 +147,10 @@ body header nav .container .phone .glitch-wrapper {
 body header nav .container .phone #glitchText {
   display: inline-block;
   letter-spacing: -0.5px;
+  color: rgb(20, 31, 187);
 }
 body header nav .container #clock {
+  width: 120px;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -157,18 +159,18 @@ body header nav .container #clock {
 body .menu-overlay {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1540px;
   height: 25vh;
   background-color: #ffffff;
-  border-bottom: 1px solid rgb(17, 17, 17);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
-  z-index: 1000;
+  z-index: 100;
   display: flex;
 }
 body .menu-overlay ul {
@@ -345,7 +347,7 @@ body main .container .right-menu {
 }
 body main .container .right-menu .right-box {
   position: fixed;
-  width: 340px;
+  width: 338px;
   height: 100%;
   overflow-y: auto;
   padding-right: 12px;
