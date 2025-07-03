@@ -112,7 +112,7 @@ body #loading span {
 body header {
   width: 100%;
   height: 56px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 body header nav {
   position: fixed;
@@ -229,42 +229,6 @@ body main .container {
   margin: 0 auto;
   display: flex;
   align-items: center;
-}
-body main .container .left-menu {
-  width: 269px;
-  height: 100vh;
-}
-body main .container .left-menu .left-box {
-  position: fixed;
-  width: 269px;
-  height: 100%;
-}
-body main .container .left-menu .left-box .left-text {
-  width: 190px;
-  margin-top: 12px;
-}
-body main .container .left-menu .left-box .left-text p {
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  color: rgb(118, 118, 118);
-}
-body main .container .left-menu .left-box .sns {
-  display: flex;
-}
-body main .container .left-menu .left-box .sns a {
-  margin-top: 460px;
-}
-body main .container .left-menu .left-box .sns a img {
-  margin-bottom: 12px;
-  margin-right: 6px;
-  width: 28px;
-  height: 28px;
-}
-body main .container .left-menu .left-box .year p {
-  font-size: 14px;
-  line-height: 20px;
-  color: rgb(118, 118, 118);
 }
 body main .container .main-menu .main-box {
   display: none;

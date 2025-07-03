@@ -29,7 +29,7 @@ body {
     header {
         width: 100%;
         height: 56px;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
         nav {
             position: fixed;
             width: 100%;
@@ -174,52 +174,8 @@ body {
             // padding-top: 40px;
             display: flex;
             align-items: center;
-            .left-menu {
-                width: 269px;
-                height: 100vh;
-                // background-color: antiquewhite;
-                .left-box{
-                    position: fixed;
-                    width: 269px;
-                    height: 100%;
-                    
-
-                    .left-text {
-                        width: 190px;
-                        margin-top: 12px;
-                        p {
-                            font-size: $title-14;
-                            line-height: 20px;
-                            letter-spacing: 0.25px;
-                            color: $color-7676;
-                         
-                        }
-                    } // .left-text
-                
-                    .sns {
-                        display: flex; 
-                       
-                        a {   
-                            margin-top: 460px;
-                            img {
-                                margin-bottom: 12px;
-                                margin-right: 6px;
-                                width: 28px;
-                                height: 28px;
-                            }
-                        }
-                    } // .sns
-                    .year {
-                        
-                        p {
-                            font-size: $title-14;
-                            line-height: 20px;
-                            color: $color-7676;
-                        }
-                    } // .year
-                } // .left-box
-            } // .left-menu
-
+            
+        
             .main-menu {
                
                 .main-box {
