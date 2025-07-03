@@ -2,7 +2,30 @@
 @import "./reset.scss";
 
 body { 
+   #loading {
+        position: fixed;
+        inset: 0;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999999;
+        transition: opacity 1s ease;
+        span {
+            font-size: 20px;
+        }
+    }
+
+        /* 텍스트 스타일은 자유롭게 */
+    
+
+    @keyframes fadeInText {
+        0% { opacity: 0; transform: translateY(10px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
     font-family: 'Pretendard', sans-serif;
+
     header {
         width: 100%;
         height: 56px;
