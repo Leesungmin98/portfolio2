@@ -386,10 +386,10 @@ body main .container .right-menu .right-box h2 {
 body main .container .right-menu .right-box .left-button {
   width: 294px;
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 body main .container .right-menu .right-box .left-button div {
-  height: 56px;
+  height: 48px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -426,7 +426,7 @@ body main .container .right-menu .right-box .works h2 {
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner {
   width: 294px;
-  height: 56px;
+  height: 48px;
 }
 body main .container .right-menu .right-box .works .works-box .works-box-inner .first-a {
   border-top: 1px solid rgb(118, 118, 118);
@@ -490,7 +490,7 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
 body main .container .right-menu .right-box .works .more {
   width: 72px;
   margin-top: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 body main .container .right-menu .right-box .works .more p {
   font-size: 16px;
@@ -511,6 +511,7 @@ body main .container .right-menu .right-box .about h2 {
   font-weight: 800;
   color: rgb(17, 17, 17);
   margin-bottom: 16px;
+  margin-top: 40px;
 }
 body main .container .right-menu .right-box .about .about-box {
   display: flex;
@@ -547,7 +548,7 @@ body main .container .right-menu .right-box .about .about-box .about-text .about
 body main .container .right-menu .right-box .about .more {
   width: 72px;
   margin-top: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 body main .container .right-menu .right-box .about .more p {
   font-size: 16px;
@@ -567,7 +568,7 @@ body main .container .right-menu .right-box .contact .contact-box {
 }
 body main .container .right-menu .right-box .contact .contact-box .contact-inner {
   width: 100%;
-  height: 80px;
+  height: 56px;
   display: flex;
   justify-content: space-between;
   align-items: center;
