@@ -436,26 +436,7 @@ body {
                                 }
                                 }
                         } // .works-box
-                        .more {
-                            width: 72px;
-                            margin-top: 16px;
-                            margin-bottom: 40px;
-                            // background-color: aquamarine;
-                         
-                            p {
-                                font-size: $title-16;
-                                line-height: 24px;
-                                font-weight: 500;
-                                color: $color-7676;
-                            }
-                            .icon-box {
-                                width: 16px;
-                                height: 16px;
-                                img {
-                                    width: 100%;
-                                }
-                            }
-                        } // .more
+                        
                     } // .works
 
                     .about {
@@ -507,16 +488,20 @@ body {
                             } // about-text
                         } // .about-box
                            .more {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                             width: 72px;
+                            height: 32px;
                             margin-top: 16px;
                             margin-bottom: 40px;
-                            // background-color: aquamarine;
-                         
+                            border: 1px solid $color-1111;
+                            
                             p {
-                                font-size: $title-16;
-                                line-height: 24px;
+                                font-size: $title-14;
+                                line-height: 20px;
                                 font-weight: 500;
-                                color: $color-7676;
+                                color: $color-1111;
                             }
                         } // .more
                     } // .about

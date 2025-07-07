@@ -455,24 +455,6 @@ body main .container .right-menu .right-box .works .works-box .works-box-inner a
     transform: translateX(-100%);
   }
 }
-body main .container .right-menu .right-box .works .more {
-  width: 72px;
-  margin-top: 16px;
-  margin-bottom: 40px;
-}
-body main .container .right-menu .right-box .works .more p {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  color: rgb(118, 118, 118);
-}
-body main .container .right-menu .right-box .works .more .icon-box {
-  width: 16px;
-  height: 16px;
-}
-body main .container .right-menu .right-box .works .more .icon-box img {
-  width: 100%;
-}
 body main .container .right-menu .right-box .about h2 {
   font-size: 24px;
   line-height: 34px;
@@ -514,15 +496,20 @@ body main .container .right-menu .right-box .about .about-box .about-text .about
   margin-top: 4px;
 }
 body main .container .right-menu .right-box .about .more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 72px;
+  height: 32px;
   margin-top: 16px;
   margin-bottom: 40px;
+  border: 1px solid rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .about .more p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
   font-weight: 500;
-  color: rgb(118, 118, 118);
+  color: rgb(17, 17, 17);
 }
 body main .container .right-menu .right-box .contact h2 {
   font-size: 24px;
