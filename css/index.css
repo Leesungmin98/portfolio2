@@ -82,6 +82,10 @@ footer {
   font-weight: 700;
   src: local("Pretendard"), url("../font/Pretendard-Bold.otf") format("opentype");
 }
+@font-face {
+  font-family: "Aonic";
+  src: local("Aonic"), url("../font/Aonic-Medium.ttf") format("opentype");
+}
 body {
   /* 텍스트 스타일은 자유롭게 */
   font-family: "Pretendard", sans-serif;
@@ -162,16 +166,16 @@ body header nav .container .menu-btn.active .bar:nth-child(2) {
 }
 body header nav .container .phone .glitch-wrapper {
   width: 128px;
-  font-family: "Pretendard", sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 28px;
+  font-family: "Aonic";
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 38px;
   color: rgb(17, 17, 17);
 }
 body header nav .container .phone #glitchText {
   display: inline-block;
   letter-spacing: -0.5px;
-  color: rgb(20, 31, 187);
+  color: rgb(18, 28, 168);
 }
 body header nav .container #clock {
   width: 130px;

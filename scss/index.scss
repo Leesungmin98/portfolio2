@@ -90,10 +90,10 @@ body {
                      .glitch-wrapper {
                         
                         width: 128px;
-                        font-family: 'Pretendard', sans-serif;
-                        font-size: 20px;
-                        font-weight: 900;
-                        line-height: 28px;
+                        font-family: 'Aonic';
+                        font-size: 28px;
+                        letter-spacing: -0.5px;
+                        line-height: 38px;
                         color: $color-1111;
                        
                     } // .glitch-wrapper
@@ -101,7 +101,7 @@ body {
                     #glitchText {
                         display: inline-block;
                         letter-spacing: -0.5px;
-                        color: rgb(20, 31, 187);
+                        color: rgb(18, 28, 168);
                     } // #glitchText
                 } // .phone
 
