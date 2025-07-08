@@ -89,23 +89,9 @@ footer {
 body {
   font-family: "Pretendard", sans-serif;
 }
-body #loading {
-  position: fixed;
-  inset: 0;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999999;
-  transition: opacity 0.3s ease;
-}
-body #loading span {
-  font-size: 20px;
-}
 body header {
   width: 100%;
   height: 72px;
-  margin-bottom: 32px;
 }
 body header nav {
   position: fixed;
