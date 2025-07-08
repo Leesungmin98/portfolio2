@@ -286,6 +286,7 @@ body main .container .subMainBox2 .smb2-box {
   background-color: #f5f5f5;
 }
 body main .container .subMainBox2 .smb2-box .smb2-box-inner {
+  padding: 56px;
   width: 100%;
 }
 body main .container .subMainBox2 .smb2-box .smb2-box-inner img {
