@@ -3,6 +3,19 @@
 
 body {
      font-family: 'Pretendard', sans-serif;
+     #loading {
+        position: fixed;
+        inset: 0;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999999;
+        transition: opacity 0.3s ease;
+        span {
+            font-size: 20px;
+        }
+    }
 
     header {
         width: 100%;

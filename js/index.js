@@ -194,39 +194,16 @@ function fadeIn(element) {
 }
 /////////////////////////////////////////////
 
+
+
+////////////////////////////////////////
+
 document.addEventListener('DOMContentLoaded', () => {
-  const glitchText = document.getElementById('glitchText');
   const loading = document.getElementById("loading");
   const mainContent = document.getElementById("mainContent");
-  const texts = ['HELLO'];
-  const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789가나다라마바사아자차카타파하!@#$%^&*()-_+=~';
-
-  async function glitchEffect(from, to) {
-    const maxLen = Math.max(from.length, to.length);
-    let outputArr = Array(maxLen).fill(' ');
-    
-    for (let i = 0; i < maxLen; i++) {
-      const targetChar = to[i] || ' ';
-      await new Promise(resolve => {
-        const interval = setInterval(() => {
-          const randChar = charset.charAt(Math.floor(Math.random() * charset.length));
-          outputArr[i] = randChar;
-          glitchText.textContent = outputArr.join('');
-        }, 30);
-
-        setTimeout(() => {
-          clearInterval(interval);
-          outputArr[i] = targetChar;
-          glitchText.textContent = outputArr.join('');
-          resolve();
-        }, 300 + i * 80);
-      });
-    }
-  }
-
   // 시작
   (async () => {
-    await glitchEffect('      ', texts[0]);
+  
     setTimeout(() => {
       loading.style.opacity = '0';
       setTimeout(() => {
@@ -235,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
           mainContent.style.opacity = '1';
         }, 50);
-      }, 1000); // loading opacity transition 시간과 동일
-    }, 1000); // glitch 끝난 뒤 약간 멈췄다 사라지게
+      }, 300); // loading opacity transition 시간과 동일
+    },300); // glitch 끝난 뒤 약간 멈췄다 사라지게
   })();
 });

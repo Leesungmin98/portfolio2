@@ -87,21 +87,7 @@ footer {
   src: local("Aonic"), url("../font/Aonic-Medium.ttf") format("opentype");
 }
 body {
-  /* 텍스트 스타일은 자유롭게 */
   font-family: "Pretendard", sans-serif;
-}
-body #loading {
-  position: fixed;
-  inset: 0;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999999;
-  transition: opacity 1s ease;
-}
-body #loading span {
-  font-size: 20px;
 }
 @keyframes fadeInText {
   0% {
