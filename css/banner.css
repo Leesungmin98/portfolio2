@@ -237,7 +237,7 @@ body main .container .subMainBox .button a {
   line-height: 48px;
   color: rgb(80, 80, 80);
 }
-body main .container .subMainBox .button .b5 {
+body main .container .subMainBox .button .b3 {
   font-weight: 600;
   color: rgb(17, 17, 17);
   border-bottom: 2px solid rgb(17, 17, 17);
@@ -278,7 +278,7 @@ body main .container .subMainBox2 {
   justify-content: space-between;
 }
 body main .container .subMainBox2 .smb2-box {
-  width: 100%;
+  width: 629px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -287,10 +287,43 @@ body main .container .subMainBox2 .smb2-box {
 body main .container .subMainBox2 .smb2-box .smb2-box-inner {
   margin-top: 56px;
   margin-bottom: 56px;
-  width: 700px;
+  width: 448px;
   height: 100%;
 }
 body main .container .subMainBox2 .smb2-box .smb2-box-inner img {
+  width: 100%;
+  height: 100%;
+}
+body main .container .subMainBox2 .smb23 .smb2-box2 {
+  width: 890px;
+  height: 435px;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+body main .container .subMainBox2 .smb23 .smb2-box2 .smb2-box-inner2 {
+  width: 800px;
+  height: 238px;
+  margin: 0 auto;
+}
+body main .container .subMainBox2 .smb23 .smb2-box2 .smb2-box-inner2 img {
+  width: 100%;
+  height: 100%;
+}
+body main .container .subMainBox2 .smb23 .smb2-box3 {
+  margin-top: 20px;
+  width: 890px;
+  height: 435px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+body main .container .subMainBox2 .smb23 .smb2-box3 .smb2-box-inner3 {
+  width: 700px;
+  height: 367px;
+}
+body main .container .subMainBox2 .smb23 .smb2-box3 .smb2-box-inner3 img {
   width: 100%;
   height: 100%;
 }/*# sourceMappingURL=banner.css.map */
