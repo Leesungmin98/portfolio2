@@ -164,7 +164,7 @@ body header nav .container .menu-btn.active .bar:nth-child(1) {
 body header nav .container .menu-btn.active .bar:nth-child(2) {
   transform: rotate(-45deg);
 }
-body header nav .container .phone .glitch-wrapper {
+body header nav .container .logo .logo-wrapper {
   width: 128px;
   font-family: "Aonic";
   font-size: 28px;
@@ -172,7 +172,7 @@ body header nav .container .phone .glitch-wrapper {
   line-height: 38px;
   color: rgb(17, 17, 17);
 }
-body header nav .container .phone #glitchText {
+body header nav .container .logo #logoText {
   display: inline-block;
   letter-spacing: -0.5px;
   color: rgb(18, 28, 168);

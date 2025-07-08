@@ -84,10 +84,10 @@ body {
                     } // .active
                 } // .menu-btn
 
-                .phone {
+                .logo {
                    
                     // background-color: aqua;
-                     .glitch-wrapper {
+                     .logo-wrapper {
                         
                         width: 128px;
                         font-family: 'Aonic';
@@ -98,7 +98,7 @@ body {
                        
                     } // .glitch-wrapper
         
-                    #glitchText {
+                    #logoText {
                         display: inline-block;
                         letter-spacing: -0.5px;
                         color: rgb(18, 28, 168);
@@ -156,12 +156,13 @@ body {
         } // ul
     } // .menu-overlay
 
-    //////////////////////// header ////////////////////////
-
     .menu-overlay.active {
         opacity: 1;
         pointer-events: auto;
     } // .menu-overlay.active
+    
+    //////////////////////// header ////////////////////////
+
 
     main {
         width: 100%;
