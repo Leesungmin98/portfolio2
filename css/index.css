@@ -172,11 +172,12 @@ body header nav .container #clock {
 }
 body .menu-overlay {
   position: fixed;
-  top: 0;
+  top: 7.6%;
   left: 50%;
   transform: translate(-50%);
   width: 1540px;
-  height: 25vh;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -188,7 +189,8 @@ body .menu-overlay {
   display: flex;
 }
 body .menu-overlay ul {
-  margin-top: 70px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   list-style: none;
   text-align: center;
 }

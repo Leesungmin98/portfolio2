@@ -107,11 +107,11 @@ body {
 
      .menu-overlay {
         position: fixed;
-        top: 0;
+        top: 7.6%;
         left: 50%;
         transform: translate(-50%);
         width: 1540px;
-        height: 25vh;
+        height: fit-content;
         background-color: #ffffff;
         // border-bottom: 1px solid $color-1111;
         display: flex;
@@ -124,8 +124,8 @@ body {
         display: flex;
        
         ul {
-            margin-top: 70px;
-     
+            padding-top: 24px;
+            padding-bottom: 24px;
             list-style: none;
             text-align: center;
             // background-color: aliceblue;
