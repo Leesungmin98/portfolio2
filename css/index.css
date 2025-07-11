@@ -189,8 +189,8 @@ body .menu-overlay {
   display: flex;
 }
 body .menu-overlay ul {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   list-style: none;
   text-align: center;
 }
