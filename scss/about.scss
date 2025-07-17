@@ -150,149 +150,88 @@ body {
             width: 100%;
             height: 100%;
             max-width: 1540px;
-            .subMainBox {
-                width: 100%;
-                height: 100%;
-                .sub-img-box {
-                    width: 100%;
-                    height: 720px;
-                    background-color: #999999;
+            .about-main-box {
+                display: flex;
+                margin-top: 32px;
+                .about-box1 {
+                    position: relative;
+                    width: 50%;
+                    height: 770px;
+                    // background-color: antiquewhite;
+                    .about-box1-1 {
+                     
+                        h2 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-bottom: 2px;
+                        }
+                        p {
+                            color: $color-7676;
+                        }
+                    } // .about-box1-1
+                    .about-box1-2 {
+                        position: absolute;
+                        bottom: 0;
+                        a {
+                            margin-top: 2px;
+                            span {
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+                    } // .about-box1-2
+                } // .about-box1
+
+                .about-box2 {
+                    width: 50%;
+                    height: 770px;
+                    background-color: rgb(184, 184, 184);
                     img {
-                        width: 100%;
-                        height: 100%;
+
                     }
+                } // .about-box2
+
+            } // .about-main-box
+
+            .about-main-box2 {
+                display: flex;
+                .about2-box1 {
+                    width: 50%;
+                    height: 600px;
                 }
-               
-                .imgBox {
-                    width: 100%;
-                    height: 760px;
-                    background-color: antiquewhite;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                } // .imgBox
-
-                .button {
-                    width: 100%;
-                    display: flex;
-                    height: fit-content;
-                    a {
-                        width: 100%;
-                        height: 48px;
-                        text-align: center;
-                        border-bottom: 2px solid #F1F1F5;
-                        font-size: 14px;
-                        font-weight: 400;
-                        line-height: 48px;
-                        color: $color-5050;
-                    }
-                    .b7 {
-                        font-weight: 600;
-                        color: $color-1111;
-                        border-bottom: 2px solid $color-1111;
-                    }
-                     .a1 {
-                        font-weight: 600;
-                        color: $color-1111;
-                        border-bottom: 2px solid $color-1111;
-                    }
-                } // .button
-
-                .textBox {
-                    width: 100%;
-                    height: 100%;
-                    margin-top: 120px;
-                    // margin-bottom: 56px;
-                    text-align: center;
+                .about2-box2 {
+                    width: 50%;
+                    height: 600px;
                     h2 {
-                        font-size: 32px;
-                        font-weight: 600;
-                        line-height: 42px;
-                        color: $color-1111;
-                    }
-                    span {
-                        display: inline-block;
-                        margin-top: 12px;
-                        margin-bottom: 24px;
-                        font-size: 14px;
-                        font-weight: 400;
-                        line-height: 20px;
-                        color: $color-7676;
+                        font-size: 80px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        margin-top: 200px;
+                        margin-bottom: 32px;
                     }
                     p {
                         width: 500px;
-                        margin: 0 auto;
                         font-size: 16px;
-                        font-weight: 400;
                         line-height: 24px;
                         color: $color-7676;
                     }
-                    .textBox-inner {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin-top: 24px;
-                        .more {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            margin-right: 12px;
-                            width: 72px;
-                            height: 32px;
-                            border: 1px solid #999999;
-                            font-weight: 400;
-                            color: $color-5050;
-                         
-                            p {
-                                font-size: $title-14;
-                                line-height: 20px;
-                            }
-                            &:hover {
-                                border: 2px solid #111111;
-                                p {
-                                    color: #111111;
-                                    font-weight: 500;
-                                }
-                            }
-                        } // .more
-                    } // .textBox-inner
-                } // .textBox
+                }
+            } // .about-main-box2
 
-            } // .subMainBox
-
-            .subMainBox2 {
+            .about-main-box3 {
+                display: flex;
                 margin-top: 56px;
-                margin-bottom: 56px;
-                .smb2-box {
-                    width: 100%;
-                    height: 100%;
-                    margin-bottom: 56px;
-                    display: flex;
-                    justify-content: center;
-                    background-color: #f5f5f5;
-                    .smb2-box-inner {
-                    
-                        width: 100%;
-                        height: 100%;
-                        img {
-                            width: 100%;
-                            height: 100%;
-                            border: 1px solid #999999;
-                        }
-                    } // .smb2-box-inner
-
-                    .smb2-box-inner2 {
-                        width: 900px;
+                .about3-box1 {
+                    width: 50%;
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 800;
                     }
-                    .smb2-box-inner3 {
-                        width: 900px;
-                    }
-                } // .smb2-box
-
-                
-            } // .subMainBox2
-
+                }
+                .about3-box2 {
+                    width: 50%;
+                }
+            }
         } // .container
     } // main
 } // body 
