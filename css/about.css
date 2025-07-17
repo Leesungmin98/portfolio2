@@ -256,21 +256,22 @@ body main .container .about-main-box2 .about2-box2 h2 {
   font-size: 80px;
   font-weight: 700;
   line-height: 100px;
-  margin-top: 200px;
+  margin-top: 190px;
   margin-bottom: 32px;
 }
 body main .container .about-main-box2 .about2-box2 p {
   width: 500px;
   font-size: 16px;
   line-height: 24px;
-  color: rgb(118, 118, 118);
+  color: rgb(80, 80, 80);
 }
 body main .container .about-main-box3 {
   display: flex;
-  margin-top: 56px;
+  margin-top: 70px;
 }
 body main .container .about-main-box3 .about3-box1 {
   width: 50%;
+  height: 770px;
 }
 body main .container .about-main-box3 .about3-box1 h2 {
   font-size: 20px;
@@ -278,4 +279,53 @@ body main .container .about-main-box3 .about3-box1 h2 {
 }
 body main .container .about-main-box3 .about3-box2 {
   width: 50%;
+  height: 770px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-1 {
+  margin-bottom: 100px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-1 .h2-1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-1 .box2-1-inner {
+  display: flex;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-1 .box2-1-inner h2 {
+  font-size: 16px;
+  width: 60px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-1 .box2-1-inner p {
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-2 h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-2 img {
+  width: 265px;
+  height: 96px;
+  margin-bottom: 100px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-3 .box2-3-txt {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-3 .box2-3-1 {
+  display: flex;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-3 .box2-3-1 h2 {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+}
+body main .container .about-main-box3 .about3-box2 .about3-box2-1 .box2-3 .box2-3-1 p {
+  font-size: 16px;
+  color: rgb(80, 80, 80);
 }/*# sourceMappingURL=about.css.map */
