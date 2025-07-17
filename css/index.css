@@ -454,19 +454,20 @@ body main .container .right-menu .right-box .about h2 {
 body main .container .right-menu .right-box .about .about-box {
   display: flex;
   width: 294px;
-  height: 180px;
+  height: 140px;
   align-items: center;
   border-top: 1px solid rgb(118, 118, 118);
   border-bottom: 1px solid rgb(118, 118, 118);
 }
 body main .container .right-menu .right-box .about .about-box .about-img {
   width: 100px;
-  height: 140px;
+  height: 100px;
   margin-right: 16px;
   background-color: rgb(188, 201, 197);
 }
 body main .container .right-menu .right-box .about .about-box .about-img img {
   width: 100%;
+  height: 100%;
 }
 body main .container .right-menu .right-box .about .about-box .about-text li p {
   font-size: 14px;
